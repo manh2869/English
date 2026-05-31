@@ -33,6 +33,7 @@ This file is for storing new English words with their Vietnamese meanings and di
 | residual | Phần dư, số dư, giá trị còn lại | Chênh lệch thực tế và dự báo (Thống kê); Thu nhập thụ động. |
 | orthonormal | Trực chuẩn | Vừa vuông góc, vừa có độ dài bằng 1 (Đại số). |
 | decomposition | Phân rã, phân tích, phân hủy | Chia nhỏ thực thể phức tạp (Toán/CS); Phân hủy hóa học. |
+| determinant | Định thức, yếu tố quyết định | Hệ số thay đổi diện tích/thể tích (Toán); Yếu tố ảnh hưởng chính. |
 
 ---
 
@@ -232,3 +233,52 @@ This file is for storing new English words with their Vietnamese meanings and di
 - **Nghĩa 4: Sự phân tích lực/thành phần** (Physics)
   - *Ví dụ*: "Vector decomposition" (Phân tích một vectơ thành các thành phần theo các trục tọa độ).
 
+### **determinant**
+- **Nghĩa 1: Định thức** (Mathematics - Linear Algebra)
+  - *Định nghĩa*: Một giá trị vô hướng (scalar) được tính từ các phần tử của một ma trận vuông. Nó cung cấp thông tin về tính chất của ma trận và phép biến đổi tuyến tính tương ứng.
+  - *Ký hiệu*: $\det(A)$ hoặc $|A|$.
+  - *Ý nghĩa hình học*: 
+    - Đại diện cho hệ số thay đổi **diện tích** (trong 2D) hoặc **thể tích** (trong 3D) của không gian sau phép biến đổi.
+    - Nếu $\det(A) = 0$: Không gian bị "ép bẹp" (squish) xuống số chiều thấp hơn, ma trận không khả nghịch (singular/non-invertible).
+    - Nếu $\det(A) < 0$: Phép biến đổi làm đảo ngược hướng (orientation) của không gian.
+  - *Ví dụ*: "The determinant of matrix $\begin{bmatrix} a & b \\ c & d \end{bmatrix}$ is $ad - bc$." (Định thức của ma trận $\begin{bmatrix} a & b \\ c & d \end{bmatrix}$ là $ad - bc$.)
+- **Nghĩa 2: Yếu tố quyết định** (Noun - General)
+  - *Định nghĩa*: Một yếu tố có ảnh hưởng trực tiếp và mạnh mẽ đến kết quả của một quá trình hoặc sự việc.
+  - *Ví dụ*: "Soil quality is a key determinant of crop yield." (Chất lượng đất là yếu tố quyết định then chốt đối với năng suất cây trồng.)
+- **Nghĩa 3: Định từ** (Linguistics)
+  - *Ngữ cảnh*: Trong ngữ pháp, từ dùng để xác định danh từ (thường gọi là *determiner* nhưng đôi khi dùng *determinant* trong các nghiên cứu ngôn ngữ học cũ hoặc chuyên sâu).
+
+### **composition**
+- **Nghĩa 1: Phép hợp / Sự hợp thành** (Mathematics)
+  - *Function Composition (Hợp hàm)*: Kết hợp hai hay nhiều hàm số để tạo ra một hàm mới. Đầu ra của hàm này là đầu vào của hàm kia.
+  - *Ký hiệu*: $(f \circ g)(x) = f(g(x))$.
+  - *Ý nghĩa*: Áp dụng liên tiếp các phép biến đổi. Ví dụ: Nếu $g$ là phép quay và $f$ là phép giãn, thì $f \circ g$ là phép quay rồi mới giãn.
+- **Nghĩa 2: Sự hợp thành / Thành phần** (Computer Science)
+  - *Object Composition*: Một nguyên lý thiết kế nơi một đối tượng phức tạp được tạo thành từ các đối tượng đơn giản hơn (mối quan hệ "has-a").
+  - *Ưu điểm*: Linh hoạt hơn thừa kế (inheritance), giúp mã nguồn dễ bảo trì và tái sử dụng.
+- **Nghĩa 3: Thành phần hóa học / Cấu tạo** (Chemistry/Science)
+  - *Định nghĩa*: Tỉ lệ và cách sắp xếp các nguyên tố hoặc bộ phận tạo nên một hợp chất hoặc vật thể.
+  - *Ví dụ*: "The chemical composition of water is $H_2O$." (Thành phần hóa học của nước là $H_2O$.)
+- **Nghĩa 4: Bố cục / Tác phẩm** (Arts/Linguistics)
+  - *Nghệ thuật/Nhiếp ảnh*: Cách sắp xếp các yếu tố thị giác trong một bức tranh hoặc ảnh.
+  - *Âm nhạc*: Một bản nhạc được sáng tác.
+  - *Văn học*: Một bài luận hoặc quá trình viết văn.
+- **Nghĩa 5: Tổng hợp lực / Vận tốc** (Physics)
+  - *Ngữ cảnh*: Tìm lực tổng hợp hoặc vận tốc tổng hợp từ các vectơ thành phần (Vector Addition).
+
+### **cross**
+- **Nghĩa 1: Tích có hướng / Tích vectơ** (Mathematics/Physics - *Cross Product*)
+  - *Định nghĩa*: Một phép toán trên hai vectơ trong không gian ba chiều ($\mathbb{R}^3$), kết quả trả về là một vectơ mới vuông góc với cả hai vectơ ban đầu.
+  - *Ký hiệu*: $\mathbf{a} \times \mathbf{b} = \mathbf{c}$.
+  - *Ý nghĩa hình học*: Độ lớn của tích có hướng bằng diện tích của hình bình hành được tạo bởi hai vectơ đó: $\|\mathbf{a} \times \mathbf{b}\| = \|\mathbf{a}\| \|\mathbf{b}\| \sin(\theta)$.
+  - *Quy tắc bàn tay phải*: Hướng của vectơ kết quả được xác định theo quy tắc bàn tay phải.
+- **Nghĩa 2: Chữ thập / Dấu gạch chéo** (Noun)
+  - *Ví dụ*: "A red cross" (Chữ thập đỏ), "Make a cross on the paper." (Đánh dấu X lên tờ giấy.)
+- **Nghĩa 3: Băng qua / Vượt qua / Giao nhau** (Verb)
+  - *Ví dụ*: "Cross the street" (Băng qua đường), "The lines cross at a point." (Các đường thẳng cắt nhau tại một điểm.)
+- **Nghĩa 4: Lai / Phối giống** (Biology - *Crossbreed*)
+  - *Ví dụ*: "A cross between a lion and a tiger." (Sự lai giữa sư tử và hổ.)
+- **Nghĩa 5: Bực bội / Cáu kỉnh** (Adjective)
+  - *Ví dụ*: "Don't be cross with me." (Đừng giận tôi nhé.)
+- **Nghĩa 6: Đối chéo / Liên quan chéo** (Technical - *Cross-*)
+  - *Ví dụ*: "Cross-validation" (Kiểm chéo - Thống kê), "Cross-reference" (Tham chiếu chéo).
