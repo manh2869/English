@@ -23,6 +23,16 @@ This file is for storing new English words with their Vietnamese meanings and di
 | scratch | Vạch xuất phát, giấy nháp, vệt xước | Phương pháp cộng (Toán); Lập trình; Từ con số không. |
 | scalar | Vô hướng, đơn biến | Đại lượng chỉ có độ lớn (Toán/Lý); Một giá trị duy nhất (CS). |
 | elimination | Phép loại trừ, sự khử, sự đào thải | Khử Gauss (Toán); Phản ứng tách (Hóa); Bài tiết (Sinh). |
+| factor | Nhân tử, ước số, nhân tố | Phân tích thành nhân tử (Toán); Yếu tố quyết định. |
+| deficient | Thiếu hụt, kém cỏi, số thiếu | Số có tổng các ước nhỏ hơn chính nó (Toán); Thiếu hụt (Đời sống). |
+| stretch | Phép giãn, kéo dài, vươn vai | Biến đổi đồ thị (Toán); Co giãn; Một dải/quãng. |
+| squish | Ép bẹp, nén, làm xẹp | Giảm số chiều (Toán - ĐSTT); Biến dạng liên tục (Tô-pô). |
+| interact | Tương tác, tác động qua lại | Biến tương tác (Thống kê); Quan hệ giữa các yếu tố. |
+| imposter | Kẻ mạo danh, vật thay thế | Tối ưu đồ họa (CS); Hội chứng giả mạo (Toán/CS). |
+| perpendicular | Vuông góc | Góc 90 độ (Hình học); Tích vô hướng = 0 (Đại số). |
+| residual | Phần dư, số dư, giá trị còn lại | Chênh lệch thực tế và dự báo (Thống kê); Thu nhập thụ động. |
+| orthonormal | Trực chuẩn | Vừa vuông góc, vừa có độ dài bằng 1 (Đại số). |
+| decomposition | Phân rã, phân tích, phân hủy | Chia nhỏ thực thể phức tạp (Toán/CS); Phân hủy hóa học. |
 
 ---
 
@@ -102,4 +112,123 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Ngữ cảnh*: Quá trình cơ thể loại bỏ chất thải hoặc độc tố ra ngoài.
 - **Nghĩa 4: Vòng loại / Sự loại bỏ** (General/Sports)
   - *Ví dụ*: "Elimination round" (Vòng đấu loại trực tiếp).
+
+### **factor**
+- **Nghĩa 1: Nhân tử / Ước số** (Mathematics)
+  - *Danh từ*: Một số hoặc biểu thức đại số mà khi nhân với một nhân tử khác sẽ cho ra kết quả là số hoặc biểu thức ban đầu.
+  - *Ví dụ*: "3 and 5 are factors of 15." (3 và 5 là các ước số của 15.)
+  - *Ví dụ*: "$(x+2)$ is a factor of $x^2 + 4x + 4$." ($(x+2)$ là một nhân tử của $x^2 + 4x + 4$.)
+- **Nghĩa 2: Phân tích thành nhân tử** (Verb - *To factor / Factorization*)
+  - *Định nghĩa*: Quá trình viết một số hoặc biểu thức dưới dạng tích của các nhân tử đơn giản hơn.
+  - *Ví dụ*: "Factor the polynomial." (Hãy phân tích đa thức thành nhân tử.)
+- **Nghĩa 3: Nhân tố / Yếu tố** (Noun - General)
+  - *Định nghĩa*: Một tình huống, sự kiện hoặc ảnh hưởng góp phần tạo nên một kết quả.
+  - *Ví dụ*: "Price is a major factor in our decision." (Giá cả là một nhân tố chính trong quyết định của chúng tôi.)
+- **Nghĩa 4: Hệ số / Chỉ số** (Technical)
+  - *Ví dụ*: "Scale factor" (Hệ số tỉ lệ), "Safety factor" (Hệ số an toàn).
+
+### **deficient**
+- **Nghĩa 1: Số thiếu** (Mathematics - Number Theory)
+  - *Định nghĩa*: Một số nguyên dương $n$ mà tổng các ước số thực sự của nó (tất cả các ước ngoại trừ chính nó) nhỏ hơn $n$.
+  - *Ví dụ*: Số 8 là số thiếu vì các ước thực sự là 1, 2, 4 và $1+2+4 = 7 < 8$.
+  - *Lưu ý*: Tất cả các số nguyên tố đều là số thiếu.
+- **Nghĩa 2: Thiếu hụt / Không đầy đủ** (Adjective - General)
+  - *Cấu trúc*: `Deficient in something`.
+  - *Ví dụ*: "A diet deficient in vitamin D." (Một chế độ ăn thiếu hụt vitamin D.)
+- **Nghĩa 3: Kém cỏi / Không đạt chuẩn** (Adjective - Quality)
+  - *Ví dụ*: "The safety procedures were found to be deficient." (Các quy trình an toàn được phát hiện là không đạt chuẩn.)
+
+### **stretch**
+- **Nghĩa 1: Phép giãn / Phép kéo giãn đồ thị** (Mathematics - Transformation)
+  - *Vertical Stretch*: Kéo giãn đồ thị theo chiều dọc (xa trục hoành) khi nhân hàm số với hệ số $a > 1$.
+  - *Horizontal Stretch*: Kéo giãn đồ thị theo chiều ngang (xa trục tung) khi nhân biến $x$ với hệ số $0 < b < 1$.
+  - *Ví dụ*: "A vertical stretch of $y = x^2$ by a factor of 3 results in $y = 3x^2$." (Phép giãn đồ thị $y = x^2$ theo chiều dọc với hệ số 3 sẽ cho kết quả là $y = 3x^2$.)
+- **Nghĩa 2: Kéo căng / Co giãn** (Verb/Noun - Physical)
+  - *Ví dụ*: "Stretch before exercising." (Căng cơ/khởi động trước khi tập thể dục.)
+  - *Ví dụ*: "This fabric has a lot of stretch." (Loại vải này co giãn rất tốt.)
+- **Nghĩa 3: Một dải / Một quãng / Một khoảng** (Noun - Space/Time)
+  - *Ví dụ*: "A long stretch of road." (Một đoạn đường dài.)
+  - *Ví dụ*: "A stretch of ten years." (Một khoảng thời gian 10 năm.)
+- **Nghĩa 4: Sự gượng ép / Hơi quá** (Idiom - *A stretch*)
+  - *Ví dụ*: "It's a bit of a stretch to say he's the best." (Nói anh ta là người giỏi nhất thì hơi quá/gượng ép.)
+
+### **squish**
+- **Nghĩa 1: Giảm số chiều / Ép bẹp không gian** (Mathematics - Linear Algebra)
+  - *Ngữ cảnh*: Dùng để mô tả trực quan các phép biến đổi tuyến tính có **định thức (determinant) bằng 0**.
+  - *Ý nghĩa*: Khi một không gian 2D bị "squish" thành một đường thẳng (1D), hoặc không gian 3D bị ép bẹp thành một mặt phẳng (2D). Điều này làm mất thông tin và không thể đảo ngược (non-invertible).
+  - *Ví dụ*: "A singular matrix squishes space into a lower dimension." (Một ma trận suy biến ép bẹp không gian thành một số chiều thấp hơn.)
+- **Nghĩa 2: Biến dạng liên tục** (Mathematics - Topology)
+  - *Ngữ cảnh*: Mô tả việc thay đổi hình dạng vật thể mà không làm rách hay dán dính (Homotopy/Homeomorphism).
+  - *Ví dụ*: "Squishing a solid disk into a single point." (Nén một đĩa cứng thành một điểm duy nhất.)
+- **Nghĩa 3: Ép bẹp / Nghiền nát** (Verb - Common usage)
+  - *Ví dụ*: "The bug was squished under his shoe." (Con bọ bị ép bẹp dưới giày của anh ta.)
+- **Nghĩa 4: Tiếng kêu nát / Tiếng lép nhép** (Noun/Verb - Sound)
+  - *Ví dụ*: "The mud made a squish sound." (Bùn phát ra tiếng kêu lép nhép.)
+
+### **interact**
+- **Nghĩa 1: Tương tác / Biến tương tác** (Statistics - *Interaction*)
+  - *Định nghĩa*: Xảy ra khi tác động của một biến độc lập lên biến phụ thuộc thay đổi tùy theo giá trị của một biến độc lập khác.
+  - *Ví dụ*: "There is an interaction between temperature and pressure in this reaction." (Có một sự tương tác giữa nhiệt độ và áp suất trong phản ứng này - tác dụng của nhiệt độ phụ thuộc vào áp suất hiện tại.)
+- **Nghĩa 2: Tác động qua lại / Ảnh hưởng lẫn nhau** (Mathematics/Modeling)
+  - *Ngữ cảnh*: Mô tả mối quan hệ giữa các thành phần trong một hệ thống động lực (Dynamical Systems).
+- **Nghĩa 3: Tương tác / Giao tiếp** (Verb - Social/Physical)
+  - *Ví dụ*: "The user interacts with the computer interface." (Người dùng tương tác với giao diện máy tính.)
+  - *Ví dụ*: "How do these two chemicals interact?" (Hai chất hóa học này tác động qua lại với nhau như thế nào?.)
+
+### **imposter**
+- **Nghĩa 1: Vật thay thế tối ưu đồ họa** (Computer Science - *Graphics*)
+  - *Ngữ cảnh*: Một hình ảnh 2D (billboard) được dùng để thay thế cho một mô hình 3D phức tạp khi đối tượng đó ở xa camera nhằm tiết kiệm tài nguyên xử lý (rendering).
+- **Nghĩa 2: Hội chứng kẻ giả mạo** (STEM - *Imposter Syndrome*)
+  - *Ngữ cảnh*: Cảm giác tự ti, nghi ngờ năng lực bản thân, lo sợ mình bị coi là kẻ giả mạo dù đạt được thành công thực tế (rất phổ biến trong cộng đồng Toán học và Lập trình).
+- **Nghĩa 3: Kẻ mạo danh** (Noun - General)
+  - *Định nghĩa*: Một người cố tình đóng giả làm người khác để lừa đảo hoặc trục lợi.
+  - *Ví dụ*: "He was exposed as an imposter." (Anh ta đã bị vạch trần là một kẻ mạo danh.)
+- **Nghĩa 4: Đối tượng khác biệt** (Logic/Games)
+  - *Ngữ cảnh*: Một đối tượng không tuân theo quy luật chung của tập hợp (ví dụ: trong game *Among Us*).
+
+### **perpendicular**
+- **Nghĩa 1: Vuông góc** (Geometry)
+  - *Định nghĩa*: Hai đường thẳng hoặc mặt phẳng cắt nhau tạo thành một góc chính xác 90 độ.
+  - *Ký hiệu*: $a \perp b$.
+  - *Ví dụ*: "The sides of a square are perpendicular to each other." (Các cạnh của một hình vuông vuông góc với nhau.)
+- **Nghĩa 2: Vuông góc / Trực giao** (Linear Algebra - *Orthogonal*)
+  - *Định nghĩa*: Hai vectơ $\mathbf{u}$ và $\mathbf{v}$ được gọi là vuông góc (trực giao) nếu tích vô hướng của chúng bằng 0 ($\mathbf{u} \cdot \mathbf{v} = 0$).
+  - *Ý nghĩa*: Đây là sự mở rộng của khái niệm vuông góc vào không gian nhiều chiều.
+- **Nghĩa 3: Tích hệ số góc bằng -1** (Coordinate Geometry)
+  - *Quy tắc*: Hai đường thẳng (không thẳng đứng) vuông góc với nhau khi và chỉ khi tích các hệ số góc của chúng bằng -1 ($m_1 \cdot m_2 = -1$).
+- **Nghĩa 4: Pháp tuyến** (*Normal*)
+  - *Ngữ cảnh*: Một đường thẳng hoặc vectơ vuông góc với một bề mặt hoặc một đường thẳng khác tại một điểm cụ thể.
+
+### **residual**
+- **Nghĩa 1: Phần dư / Sai số dư** (Statistics - *Residuals*)
+  - *Định nghĩa*: Sự chênh lệch giữa giá trị quan sát thực tế ($y$) và giá trị dự đoán từ mô hình ($\hat{y}$).
+  - *Công thức*: $e = y - \hat{y}$.
+  - *Ý nghĩa*: Phân tích phần dư giúp đánh giá độ chính xác và tính phù hợp của mô hình hồi quy.
+- **Nghĩa 2: Thu nhập thụ động / Thu nhập dư** (Finance - *Residual Income*)
+  - *Định nghĩa*: Khoản tiền bạn tiếp tục nhận được sau khi công việc chính đã hoàn thành (như tiền bản quyền, cổ tức, cho thuê tài sản).
+- **Nghĩa 3: Giá trị còn lại** (Finance/Accounting - *Residual Value*)
+  - *Ngữ cảnh*: Giá trị ước tính của một tài sản sau khi đã hết thời gian sử dụng hoặc khấu hao.
+- **Nghĩa 4: Dư âm / Ảnh hưởng còn lại** (Noun - General)
+  - *Ví dụ*: "Residual effects of the medication." (Những tác dụng còn sót lại của thuốc.)
+
+### **orthonormal**
+- **Nghĩa: Trực chuẩn** (Mathematics - Linear Algebra)
+  - *Định nghĩa*: Một tập hợp các vectơ được gọi là trực chuẩn nếu chúng thỏa mãn đồng thời hai điều kiện:
+    1. **Orthogonal (Trực giao)**: Các vectơ đôi một vuông góc với nhau (tích vô hướng bằng 0).
+    2. **Normalized (Chuẩn hóa)**: Mỗi vectơ đều có độ dài (norm) bằng 1.
+  - *Công thức*: $v_i \cdot v_j = \delta_{ij}$ (Bằng 1 nếu $i=j$, bằng 0 nếu $i \neq j$).
+  - *Ví dụ*: Hệ cơ sở chuẩn trong $\mathbb{R}^3$: $\{ (1,0,0), (0,1,0), (0,0,1) \}$.
+  - *Ý nghĩa*: Cơ sở trực chuẩn giúp đơn giản hóa cực kỳ nhiều các phép tính toán và biến đổi trong không gian vectơ.
+
+### **decomposition**
+- **Nghĩa 1: Phân rã / Phân tích** (Mathematics)
+  - *Matrix Decomposition*: Phân tích một ma trận phức tạp thành tích của các ma trận đơn giản hơn có tính chất đặc biệt (ví dụ: LU, QR, SVD - Singular Value Decomposition).
+  - *Prime Decomposition*: Phân tích một số nguyên thành tích các thừa số nguyên tố.
+  - *Partial Fraction Decomposition*: Phân tích phân thức hữu tỉ thành tổng các phân thức đơn giản.
+- **Nghĩa 2: Phân rã bài toán** (Computer Science)
+  - *Định nghĩa*: Quá trình chia nhỏ một bài toán hoặc hệ thống phức tạp thành các phần nhỏ (module, function) để dễ quản lý, thiết kế và xử lý song song.
+- **Nghĩa 3: Sự phân hủy** (Chemistry/Biology)
+  - *Ngữ cảnh*: Hợp chất bị phá vỡ thành các nguyên tố đơn giản (Hóa học) hoặc chất hữu cơ bị thối rữa (Sinh học).
+- **Nghĩa 4: Sự phân tích lực/thành phần** (Physics)
+  - *Ví dụ*: "Vector decomposition" (Phân tích một vectơ thành các thành phần theo các trục tọa độ).
 
