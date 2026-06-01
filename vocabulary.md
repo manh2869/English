@@ -39,6 +39,13 @@ This file is for storing new English words with their Vietnamese meanings and di
 | consider | Xét, cân nhắc, coi là | Xét một đối tượng (Toán); Cân nhắc yếu tố. |
 | recognize | Nhận diện, công nhận, nhận ra | Nhận dạng mẫu (CS); Công nhận kết quả. |
 | strategy | Chiến lược, phương pháp | Game Theory (Toán); Strategy Pattern (CS); Kế hoạch. |
+| operations | Phép toán, thao tác, vận hành | Phép toán (Toán); Lệnh (CS); Vận hành hệ thống. |
+| bias | Độ chệch, sai số hệ thống, thiên kiến | Thống kê/ML; Điện tử; Tâm lý học. |
+| inverse | Nghịch đảo, ngược, hàm ngược | Hàm ngược (Toán); Ma trận nghịch đảo; Tỉ lệ nghịch. |
+| volume | Thể tích, âm lượng, khối lượng lớn, ổ đĩa | Thể tích (Toán); Lưu trữ (CS); Âm lượng. |
+| enlarged | Phóng to, mở rộng, sưng to | Phép vị tự (Toán); Phóng đại (Quang học); Y học. |
+| shrunk | Thu nhỏ, co lại, thu hẹp | Phép co (Toán); Nén dữ liệu (CS); Thống kê. |
+| weights | Trọng số, trọng lượng, quả cân | Trọng số (ML/Toán); Trọng lượng (Lý). |
 
 ---
 
@@ -347,5 +354,133 @@ This file is for storing new English words with their Vietnamese meanings and di
 - **Nghĩa 3: Chiến lược / Kế hoạch tổng thể** (Noun - General/Technical)
   - *Định nghĩa*: Một kế hoạch dài hạn nhằm đạt được một mục tiêu cụ thể, thường trong điều kiện không chắc chắn.
   - *Ví dụ*: "The company developed a new strategy to migrate their infrastructure to the cloud." (Công ty đã xây dựng một chiến lược mới để chuyển đổi hạ tầng của họ lên đám mây.)
+
+### **operations**
+- **Phiên âm**: /ˌɒp.ərˈeɪ.ʃənz/
+- **Nghĩa 1: Phép toán / Phép tính** (Mathematics)
+  - *Định nghĩa*: Một quy trình toán học hoặc logic được thực hiện trên một hoặc nhiều giá trị (toán hạng) để tạo ra kết quả.
+  - *Binary Operation*: Phép toán hai ngôi (như $+$, $-$, $\times$, $\div$).
+  - *Order of Operations*: Thứ tự thực hiện các phép tính (PEMDAS/BODMAS).
+  - *Ví dụ*: "Matrix operations like addition and multiplication are fundamental in linear algebra." (Các phép toán ma trận như cộng và nhân là nền tảng trong đại số tuyến tính.)
+- **Nghĩa 2: Thao tác / Lệnh thực thi** (Computer Science)
+  - *Định nghĩa*: Một hành động đơn lẻ được thực hiện bởi máy tính, thường liên quan đến CPU hoặc bộ nhớ.
+  - *I/O Operations*: Các thao tác nhập/xuất dữ liệu.
+  - *Atomic Operation*: Thao tác nguyên tử (không thể bị chia cắt hoặc gián đoạn).
+  - *Ví dụ*: "The CPU can perform millions of floating-point operations per second (FLOPS)." (CPU có thể thực hiện hàng triệu phép toán dấu phẩy động mỗi giây.)
+- **Nghĩa 3: Vận hành / Quản lý hệ thống** (Systems/Business - *Ops*)
+  - *Định nghĩa*: Các hoạt động hàng ngày cần thiết để duy trì một hệ thống, ứng dụng hoặc tổ chức hoạt động ổn định.
+  - *DevOps*: Sự kết hợp giữa phát triển phần mềm (Dev) và vận hành IT (Ops).
+  - *Ví dụ*: "The operations team is responsible for server maintenance and monitoring." (Đội vận hành chịu trách nhiệm bảo trì và giám sát máy chủ.)
+- **Nghĩa 4: Cuộc phẫu thuật / Hoạt động quân sự** (General)
+  - *Ví dụ*: "The patient is recovering after a successful heart operation." (Bệnh nhân đang hồi phục sau một cuộc phẫu thuật tim thành công.)
+
+### **bias**
+- **Phiên âm**: /ˈbaɪ.əs/
+- **Nghĩa 1: Độ chệch / Sai số hệ thống** (Statistics & Machine Learning)
+  - *Định nghĩa*: Sự khác biệt giữa giá trị kỳ vọng của một ước lượng và giá trị thực của tham số đang được ước lượng.
+  - *Bias-Variance Tradeoff*: Sự đánh đổi giữa độ chệch (sai số do giả thuyết đơn giản hóa quá mức) và phương sai (sai số do độ nhạy quá mức với nhiễu).
+  - *Inductive Bias*: Các giả định mà thuật toán học máy sử dụng để dự đoán kết quả cho những dữ liệu chưa từng thấy.
+  - *Ví dụ*: "High bias can cause an algorithm to miss the relevant relations between features and target outputs (underfitting)." (Độ chệch cao có thể khiến thuật toán bỏ lỡ các mối quan hệ liên quan giữa các đặc trưng và kết quả đầu ra - hiện tượng vị khớp.)
+- **Nghĩa 2: Thiên kiến / Thành kiến** (Cognitive Psychology)
+  - *Định nghĩa*: Một khuynh hướng tâm lý nghiêng về một phía, thường là thiếu khách quan.
+  - *Confirmation Bias*: Thiên kiến xác nhận (chỉ chú ý đến thông tin ủng hộ quan điểm cá nhân).
+  - *Ví dụ*: "The researchers took steps to avoid selection bias in their study." (Các nhà nghiên cứu đã thực hiện các bước để tránh thiên kiến lựa chọn trong nghiên cứu của họ.)
+- **Nghĩa 3: Điện áp phân cực / Độ dời** (Electronics & Engineering)
+  - *Định nghĩa*: Việc thiết lập một điện áp hoặc dòng điện DC định trước tại một điểm trong mạch điện để linh kiện hoạt động ở chế độ mong muốn.
+  - *Ví dụ*: "The transistor requires a specific base bias to operate as an amplifier." (Transistor cần một điện áp phân cực cực nền cụ thể để hoạt động như một bộ khuếch đại.)
+- **Nghĩa 4: Đường chéo (vải)** (General)
+  - *Ví dụ*: "The dress was cut on the bias." (Chiếc váy được cắt theo đường chéo của thớ vải.)
+
+### **inverse**
+- **Phiên âm**: /ɪnˈvɜːs/
+- **Nghĩa 1: Nghịch đảo / Đối nghịch** (Mathematics - Operations)
+  - *Định nghĩa*: Một phần tử hoặc phép toán làm đảo ngược tác dụng của một phần tử hoặc phép toán khác.
+  - *Additive Inverse*: Số đối (ví dụ: $-x$ là số đối của $x$ vì $x + (-x) = 0$).
+  - *Multiplicative Inverse*: Số nghịch đảo (ví dụ: $1/x$ là số nghịch đảo của $x$ vì $x \cdot (1/x) = 1$).
+  - *Ví dụ*: "Substraction is the inverse operation of addition." (Phép trừ là phép toán ngược của phép cộng.)
+- **Nghĩa 2: Hàm ngược / Ma trận nghịch đảo** (Mathematics - Functions & Algebra)
+  - *Inverse Function*: Hàm số $f^{-1}$ sao cho nếu $f(x) = y$ thì $f^{-1}(y) = x$.
+  - *Inverse Matrix*: Ma trận $A^{-1}$ sao cho $A \cdot A^{-1} = I$ (với $I$ là ma trận đơn vị).
+  - *Ví dụ*: "The inverse of a singular matrix does not exist." (Nghịch đảo của một ma trận suy biến không tồn tại.)
+- **Nghĩa 3: Tỉ lệ nghịch** (Mathematics & Physics - *Inverse Proportion*)
+  - *Inverse Square Law*: Định luật nghịch đảo bình phương (ví dụ: lực hấp dẫn tỉ lệ nghịch với bình phương khoảng cách).
+  - *Ví dụ*: "The intensity of light is inversely proportional to the square of the distance from the source." (Cường độ ánh sáng tỉ lệ nghịch với bình phương khoảng cách từ nguồn.)
+- **Nghĩa 4: Ngược lại / Đảo ngược** (Adjective/Noun - General/Logic)
+  - *In inverse order*: Theo thứ tự ngược lại.
+  - *Ví dụ*: "The result was the exact inverse of what we expected." (Kết quả hoàn toàn ngược lại so với những gì chúng tôi mong đợi.)
+
+### **volume**
+- **Phiên âm**: /ˈvɒl.juːm/
+- **Nghĩa 1: Thể tích** (Mathematics & Physics)
+  - *Định nghĩa*: Lượng không gian ba chiều mà một vật thể chiếm giữ.
+  - *Volume of Integration*: Thể tích tính bằng tích phân (ví dụ: $V = \iiint_D dV$).
+  - *Ví dụ*: "The formula for the volume of a sphere is $V = \frac{4}{3}\pi r^3$." (Công thức tính thể tích hình cầu là $V = \frac{4}{3}\pi r^3$.)
+- **Nghĩa 2: Ổ đĩa / Phân vùng lưu trữ** (Computer Science)
+  - *Định nghĩa*: Một vùng lưu trữ duy nhất có thể định địa chỉ trên một hệ thống tệp, thường nằm trên một phân vùng của đĩa cứng.
+  - *Logical Volume*: Ổ đĩa logic (trong LVM - Logical Volume Management).
+  - *Ví dụ*: "The system failed to mount the backup volume." (Hệ thống không thể gắn kết ổ đĩa sao lưu.)
+- **Nghĩa 3: Âm lượng / Biên độ** (Physics & Audio)
+  - *Định nghĩa*: Độ lớn của âm thanh, liên quan đến biên độ của sóng âm.
+  - *Ví dụ*: "Please turn down the volume; it's too loud." (Làm ơn vặn nhỏ âm lượng lại; nó quá lớn.)
+- **Nghĩa 4: Khối lượng lớn / Quy mô** (Noun - Business/Technical)
+  - *Data Volume*: Khối lượng dữ liệu (trong Big Data).
+  - *Trading Volume*: Khối lượng giao dịch (trong tài chính).
+  - *Ví dụ*: "The network is struggling to handle the high volume of traffic." (Mạng đang gặp khó khăn trong việc xử lý khối lượng lưu lượng truy cập lớn.)
+- **Nghĩa 5: Tập / Quyển (sách)** (Noun - General)
+  - *Ví dụ*: "This is the second volume of the encyclopedia." (Đây là tập thứ hai của bộ bách khoa toàn thư.)
+
+### **enlarged**
+- **Phiên âm**: /ɪnˈlɑːdʒd/
+- **Nghĩa 1: Phóng to / Phép vị tự** (Mathematics - Geometry)
+  - *Định nghĩa*: Một phép biến đổi làm thay đổi kích thước của một hình theo một hệ số tỉ lệ $k$ (scale factor) từ một tâm vị tự cố định. Nếu $|k| > 1$, hình được phóng to (**enlarged**).
+  - *Ví dụ*: "When a triangle is enlarged by a scale factor of 2, its area increases by a factor of 4." (Khi một hình tam giác được phóng to với hệ số tỉ lệ là 2, diện tích của nó tăng gấp 4 lần.)
+- **Nghĩa 2: Được phóng đại** (Optics & Imaging)
+  - *Định nghĩa*: Một hình ảnh được làm cho lớn hơn vật thực thông qua thấu kính hoặc xử lý kỹ thuật số.
+  - *Ví dụ*: "The specimen is enlarged under the microscope for better observation." (Mẫu vật được phóng đại dưới kính hiển vi để quan sát tốt hơn.)
+- **Nghĩa 3: Sưng to / Phì đại** (Medicine)
+  - *Định nghĩa*: Mô hoặc cơ quan trở nên lớn hơn bình thường do bệnh lý hoặc sự tăng trưởng.
+  - *Ví dụ*: "The ultrasound revealed an enlarged liver." (Siêu âm cho thấy một lá gan bị phì đại/sưng to.)
+- **Nghĩa 4: Mở rộng (về quy mô/phạm vi)** (Adjective - General)
+  - *Ví dụ*: "The company recently moved to enlarged premises to accommodate more staff." (Công ty gần đây đã chuyển đến một cơ sở rộng lớn hơn để có chỗ cho thêm nhân viên.)
+
+### **shrunk**
+- **Phiên âm**: /ʃrʌŋk/
+- **Nghĩa 1: Thu nhỏ / Phép co** (Mathematics - Geometry)
+  - *Định nghĩa*: Một phép biến đổi vị tự (dilation) làm giảm kích thước của một hình theo một hệ số tỉ lệ $k$ (scale factor) từ một tâm cố định. Nếu $0 < |k| < 1$, hình được gọi là bị thu nhỏ (**shrunk** or **contracted**).
+  - *Ví dụ*: "The image was shrunk by a factor of $0.5$." (Hình ảnh đã bị thu nhỏ theo hệ số 0.5.)
+- **Nghĩa 2: Phương pháp thu hẹp / Giảm hệ số** (Statistics - *Shrinkage*)
+  - *Định nghĩa*: Một kỹ thuật trong thống kê và học máy giúp cải thiện ước lượng bằng cách "kéo" các hệ số về phía 0 để tránh quá khớp (overfitting).
+  - *Shrinkage Estimator*: Ước lượng thu hẹp (ví dụ trong Ridge hoặc Lasso regression).
+  - *Ví dụ*: "Shrinkage methods are used to stabilize the estimates when features are highly correlated." (Các phương pháp thu hẹp được sử dụng để làm ổn định các ước lượng khi các đặc trưng có tương quan cao.)
+- **Nghĩa 3: Thu hẹp dung lượng / Phân vùng** (Computer Science)
+  - *Định nghĩa*: Hành động giảm kích thước của một ổ đĩa, phân vùng hoặc tệp dữ liệu để giải phóng không gian.
+  - *Ví dụ*: "The database transaction log shrunk after the backup operation." (Tệp nhật ký giao dịch của cơ sở dữ liệu đã thu hẹp lại sau thao tác sao lưu.)
+- **Nghĩa 4: Co lại (vật lý/vải)** (General/Material Science)
+  - *Ví dụ*: "The wool sweater shrunk in the wash." (Chiếc áo len lông cừu đã bị co lại khi giặt.)
+  - *Ví dụ*: "The metal parts shrunk slightly due to the extreme cold." (Các bộ phận kim loại bị co lại một chút do cái lạnh cực độ.)
+
+### **weights**
+- **Phiên âm**: /weɪts/
+- **Nghĩa 1: Trọng số** (Mathematics & Statistics)
+  - *Định nghĩa*: Các giá trị được gán cho các phần tử trong một tập hợp nhằm thể hiện tầm quan trọng tương đối của chúng trong một phép tính (ví dụ: số trung bình cộng có trọng số).
+  - *Weighted Average*: Số trung bình cộng có trọng số, công thức: $\bar{x} = \frac{\sum w_i x_i}{\sum w_i}$.
+  - *Ví dụ*: "The final grade is a weighted average of the midterm and final exams." (Điểm tổng kết là trung bình cộng có trọng số của bài kiểm tra giữa kỳ và cuối kỳ.)
+- **Nghĩa 2: Trọng số (Tham số mô hình)** (Machine Learning - *Parameters*)
+  - *Định nghĩa*: Các hệ số trong một mô hình học máy (đặc biệt là mạng nơ-ron) dùng để điều chỉnh tầm quan trọng của các tín hiệu đầu vào. Quá trình "học" chính là việc cập nhật các trọng số này.
+  - *Weight Update*: Cập nhật trọng số (thường dùng Gradient Descent).
+  - *Ví dụ*: "The neural network adjusts its weights during the training process to minimize the loss function." (Mạng nơ-ron điều chỉnh các trọng số của nó trong quá trình huấn luyện để tối thiểu hóa hàm mất mát.)
+- **Nghĩa 3: Trọng lượng** (Physics)
+  - *Định nghĩa*: Lực hấp dẫn tác động lên một vật thể, tỉ lệ thuận với khối lượng của nó. Công thức: $W = mg$.
+  - *Ví dụ*: "An object's weight varies depending on the local gravitational field strength." (Trọng lượng của một vật thể thay đổi tùy thuộc vào cường độ trường hấp dẫn tại địa phương.)
+- **Nghĩa 4: Quả cân / Vật nặng** (Noun - General)
+  - *Ví dụ*: "The athlete is lifting weights at the gym." (Vận động viên đang nâng tạ tại phòng tập.)
+  - *Ví dụ*: "Paperweights prevent documents from blowing away." (Cục chặn giấy giúp tài liệu không bị bay mất.)
+
+
+
+
+
+
+
 
 
