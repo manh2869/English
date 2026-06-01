@@ -34,12 +34,18 @@ This file is for storing new English words with their Vietnamese meanings and di
 | orthonormal | Trực chuẩn | Vừa vuông góc, vừa có độ dài bằng 1 (Đại số). |
 | decomposition | Phân rã, phân tích, phân hủy | Chia nhỏ thực thể phức tạp (Toán/CS); Phân hủy hóa học. |
 | determinant | Định thức, yếu tố quyết định | Hệ số thay đổi diện tích/thể tích (Toán); Yếu tố ảnh hưởng chính. |
+| composition | Phép hợp, sự hợp thành, thành phần | Hợp hàm (Toán); Hợp thành đối tượng (CS); Bố cục. |
+| cross | Tích có hướng, chữ thập, băng qua | Tích vectơ (Toán/Lý); Giao nhau; Bực bội. |
+| consider | Xét, cân nhắc, coi là | Xét một đối tượng (Toán); Cân nhắc yếu tố. |
+| recognize | Nhận diện, công nhận, nhận ra | Nhận dạng mẫu (CS); Công nhận kết quả. |
+| strategy | Chiến lược, phương pháp | Game Theory (Toán); Strategy Pattern (CS); Kế hoạch. |
 
 ---
 
 ## Detailed Entries
 
 ### **magnitude**
+- **Phiên âm**: /ˈmæɡ.nə.tʃuːd/
 - **Nghĩa 1: Độ lớn, quy mô** (Size/Extent)
   - *Ví dụ*: "The magnitude of the flood was unprecedented." (Quy mô của trận lũ lụt là chưa từng có.)
 - **Nghĩa 2: Tầm quan trọng, mức độ nghiêm trọng** (Importance/Severity)
@@ -51,12 +57,14 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Ví dụ*: "The magnitude of a force." (Độ lớn của một lực.)
 
 ### **intuition**
+- **Phiên âm**: /ˌɪn.tuːˈɪʃ.ən/
 - **Nghĩa 1: Trực giác, linh cảm** (Instinctive understanding)
   - *Định nghĩa*: Khả năng hiểu hoặc biết điều gì đó ngay lập tức mà không cần suy luận logic hay bằng chứng cụ thể.
   - *Ví dụ*: "I had an intuition that she was lying." (Tôi có một linh cảm rằng cô ấy đang nói dối.)
   - *Ví dụ*: "Trust your intuition." (Hãy tin vào trực giác của bạn.)
 
 ### **objectives**
+- **Phiên âm**: /əbˈdʒek.tɪvz/
 - **Nghĩa 1: Mục tiêu, mục đích** (Noun - Goals/Targets)
   - *Định nghĩa*: Những kết quả cụ thể mà một cá nhân hoặc tổ chức cố gắng đạt được.
   - *Ví dụ*: "Our primary objective is to improve customer service." (Mục tiêu chính của chúng tôi là cải thiện dịch vụ khách hàng.)
@@ -67,6 +75,7 @@ This file is for storing new English words with their Vietnamese meanings and di
   - **Ngữ cảnh**: Trong kính hiển vi hoặc kính thiên văn.
 
   ### **span**
+  - **Phiên âm**: /spæn/
   - **Nghĩa 1: Không gian sinh / Bao tuyến tính** (Mathematics - Linear Algebra)
     - *Định nghĩa*: Cho một tập hợp các vectơ $\{v_1, v_2, ..., v_n\}$, **span** của chúng là tập hợp tất cả các tổ hợp tuyến tính có thể có: $c_1v_1 + c_2v_2 + ... + c_nv_n$.
     - *Ý nghĩa*: Nó đại diện cho toàn bộ "vùng không gian" mà các vectơ đó có thể bao phủ được.
@@ -79,6 +88,7 @@ This file is for storing new English words with their Vietnamese meanings and di
     - *Ví dụ*: "A career spanning 30 years." (Một sự nghiệp kéo dài suốt 30 năm.)
 
 ### **scratch**
+- **Phiên âm**: /skrætʃ/
 - **Nghĩa 1: Phương pháp cộng "Scratch" / Giấy nháp** (Mathematics)
   - *Ngữ cảnh*: Thuật toán cộng các cột số dài (Scratch Addition) bằng cách gạch (scratch) khi tổng vượt quá 10.
   - *Scratchpad*: Không gian nháp để thực hiện các bước tính toán trung gian (cũng dùng trong logic và AI).
@@ -93,6 +103,7 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Ví dụ*: "A scratch on the surface." (Một vết xước trên bề mặt.)
 
 ### **scalar**
+- **Phiên âm**: /ˈskeɪ.lər/
 - **Nghĩa 1: Đại lượng vô hướng / Số vô hướng** (Mathematics - Linear Algebra)
   - *Định nghĩa*: Một phần tử của một trường (như số thực hoặc số phức). Trong đại số tuyến tính, scalar dùng để nhân với vectơ nhằm thay đổi độ lớn (scale) của vectơ đó.
   - *Ví dụ*: "In the expression $3\mathbf{v}$, the number 3 is a scalar." (Trong biểu thức $3\mathbf{v}$, số 3 là một số vô hướng.)
@@ -104,6 +115,7 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Xử lý Scalar*: Thực hiện một phép tính trên một cặp dữ liệu duy nhất (phân biệt với xử lý vectơ/mảng).
 
 ### **elimination**
+- **Phiên âm**: /iˌlɪm.ɪˈneɪ.ʃən/
 - **Nghĩa 1: Phép loại trừ / Phép khử** (Mathematics)
   - *Gaussian Elimination (Khử Gauss)*: Một thuật toán trong đại số tuyến tính dùng để giải hệ phương trình tuyến tính bằng cách biến đổi ma trận về dạng bậc thang để triệt tiêu (loại bỏ) các biến số.
   - *Method of Elimination*: Phương pháp cộng đại số để khử một ẩn số trong hệ phương trình.
@@ -115,6 +127,7 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Ví dụ*: "Elimination round" (Vòng đấu loại trực tiếp).
 
 ### **factor**
+- **Phiên âm**: /ˈfæk.tər/
 - **Nghĩa 1: Nhân tử / Ước số** (Mathematics)
   - *Danh từ*: Một số hoặc biểu thức đại số mà khi nhân với một nhân tử khác sẽ cho ra kết quả là số hoặc biểu thức ban đầu.
   - *Ví dụ*: "3 and 5 are factors of 15." (3 và 5 là các ước số của 15.)
@@ -129,6 +142,7 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Ví dụ*: "Scale factor" (Hệ số tỉ lệ), "Safety factor" (Hệ số an toàn).
 
 ### **deficient**
+- **Phiên âm**: /dɪˈfɪʃ.ənt/
 - **Nghĩa 1: Số thiếu** (Mathematics - Number Theory)
   - *Định nghĩa*: Một số nguyên dương $n$ mà tổng các ước số thực sự của nó (tất cả các ước ngoại trừ chính nó) nhỏ hơn $n$.
   - *Ví dụ*: Số 8 là số thiếu vì các ước thực sự là 1, 2, 4 và $1+2+4 = 7 < 8$.
@@ -140,6 +154,7 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Ví dụ*: "The safety procedures were found to be deficient." (Các quy trình an toàn được phát hiện là không đạt chuẩn.)
 
 ### **stretch**
+- **Phiên âm**: /stretʃ/
 - **Nghĩa 1: Phép giãn / Phép kéo giãn đồ thị** (Mathematics - Transformation)
   - *Vertical Stretch*: Kéo giãn đồ thị theo chiều dọc (xa trục hoành) khi nhân hàm số với hệ số $a > 1$.
   - *Horizontal Stretch*: Kéo giãn đồ thị theo chiều ngang (xa trục tung) khi nhân biến $x$ với hệ số $0 < b < 1$.
@@ -154,6 +169,7 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Ví dụ*: "It's a bit of a stretch to say he's the best." (Nói anh ta là người giỏi nhất thì hơi quá/gượng ép.)
 
 ### **squish**
+- **Phiên âm**: /skwɪʃ/
 - **Nghĩa 1: Giảm số chiều / Ép bẹp không gian** (Mathematics - Linear Algebra)
   - *Ngữ cảnh*: Dùng để mô tả trực quan các phép biến đổi tuyến tính có **định thức (determinant) bằng 0**.
   - *Ý nghĩa*: Khi một không gian 2D bị "squish" thành một đường thẳng (1D), hoặc không gian 3D bị ép bẹp thành một mặt phẳng (2D). Điều này làm mất thông tin và không thể đảo ngược (non-invertible).
@@ -167,6 +183,7 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Ví dụ*: "The mud made a squish sound." (Bùn phát ra tiếng kêu lép nhép.)
 
 ### **interact**
+- **Phiên âm**: /ˌɪn.təˈrækt/
 - **Nghĩa 1: Tương tác / Biến tương tác** (Statistics - *Interaction*)
   - *Định nghĩa*: Xảy ra khi tác động của một biến độc lập lên biến phụ thuộc thay đổi tùy theo giá trị của một biến độc lập khác.
   - *Ví dụ*: "There is an interaction between temperature and pressure in this reaction." (Có một sự tương tác giữa nhiệt độ và áp suất trong phản ứng này - tác dụng của nhiệt độ phụ thuộc vào áp suất hiện tại.)
@@ -177,6 +194,7 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Ví dụ*: "How do these two chemicals interact?" (Hai chất hóa học này tác động qua lại với nhau như thế nào?.)
 
 ### **imposter**
+- **Phiên âm**: /ɪmˈpɒs.tər/
 - **Nghĩa 1: Vật thay thế tối ưu đồ họa** (Computer Science - *Graphics*)
   - *Ngữ cảnh*: Một hình ảnh 2D (billboard) được dùng để thay thế cho một mô hình 3D phức tạp khi đối tượng đó ở xa camera nhằm tiết kiệm tài nguyên xử lý (rendering).
 - **Nghĩa 2: Hội chứng kẻ giả mạo** (STEM - *Imposter Syndrome*)
@@ -188,6 +206,7 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Ngữ cảnh*: Một đối tượng không tuân theo quy luật chung của tập hợp (ví dụ: trong game *Among Us*).
 
 ### **perpendicular**
+- **Phiên âm**: /ˌpɜː.pənˈdɪk.jə.lər/
 - **Nghĩa 1: Vuông góc** (Geometry)
   - *Định nghĩa*: Hai đường thẳng hoặc mặt phẳng cắt nhau tạo thành một góc chính xác 90 độ.
   - *Ký hiệu*: $a \perp b$.
@@ -201,6 +220,7 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Ngữ cảnh*: Một đường thẳng hoặc vectơ vuông góc với một bề mặt hoặc một đường thẳng khác tại một điểm cụ thể.
 
 ### **residual**
+- **Phiên âm**: /rəˈzɪdʒ.u.əl/
 - **Nghĩa 1: Phần dư / Sai số dư** (Statistics - *Residuals*)
   - *Định nghĩa*: Sự chênh lệch giữa giá trị quan sát thực tế ($y$) và giá trị dự đoán từ mô hình ($\hat{y}$).
   - *Công thức*: $e = y - \hat{y}$.
@@ -213,6 +233,7 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Ví dụ*: "Residual effects of the medication." (Những tác dụng còn sót lại của thuốc.)
 
 ### **orthonormal**
+- **Phiên âm**: /ˌɔː.θəˈnɔː.məl/
 - **Nghĩa: Trực chuẩn** (Mathematics - Linear Algebra)
   - *Định nghĩa*: Một tập hợp các vectơ được gọi là trực chuẩn nếu chúng thỏa mãn đồng thời hai điều kiện:
     1. **Orthogonal (Trực giao)**: Các vectơ đôi một vuông góc với nhau (tích vô hướng bằng 0).
@@ -222,6 +243,7 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Ý nghĩa*: Cơ sở trực chuẩn giúp đơn giản hóa cực kỳ nhiều các phép tính toán và biến đổi trong không gian vectơ.
 
 ### **decomposition**
+- **Phiên âm**: /ˌdiː.kɒm.pəˈzɪʃ.ən/
 - **Nghĩa 1: Phân rã / Phân tích** (Mathematics)
   - *Matrix Decomposition*: Phân tích một ma trận phức tạp thành tích của các ma trận đơn giản hơn có tính chất đặc biệt (ví dụ: LU, QR, SVD - Singular Value Decomposition).
   - *Prime Decomposition*: Phân tích một số nguyên thành tích các thừa số nguyên tố.
@@ -234,6 +256,7 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Ví dụ*: "Vector decomposition" (Phân tích một vectơ thành các thành phần theo các trục tọa độ).
 
 ### **determinant**
+- **Phiên âm**: /dɪˈtɜː.mɪ.nənt/
 - **Nghĩa 1: Định thức** (Mathematics - Linear Algebra)
   - *Định nghĩa*: Một giá trị vô hướng (scalar) được tính từ các phần tử của một ma trận vuông. Nó cung cấp thông tin về tính chất của ma trận và phép biến đổi tuyến tính tương ứng.
   - *Ký hiệu*: $\det(A)$ hoặc $|A|$.
@@ -249,6 +272,7 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Ngữ cảnh*: Trong ngữ pháp, từ dùng để xác định danh từ (thường gọi là *determiner* nhưng đôi khi dùng *determinant* trong các nghiên cứu ngôn ngữ học cũ hoặc chuyên sâu).
 
 ### **composition**
+- **Phiên âm**: /ˌkɒm.pəˈzɪʃ.ən/
 - **Nghĩa 1: Phép hợp / Sự hợp thành** (Mathematics)
   - *Function Composition (Hợp hàm)*: Kết hợp hai hay nhiều hàm số để tạo ra một hàm mới. Đầu ra của hàm này là đầu vào của hàm kia.
   - *Ký hiệu*: $(f \circ g)(x) = f(g(x))$.
@@ -267,6 +291,7 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Ngữ cảnh*: Tìm lực tổng hợp hoặc vận tốc tổng hợp từ các vectơ thành phần (Vector Addition).
 
 ### **cross**
+- **Phiên âm**: /krɒs/
 - **Nghĩa 1: Tích có hướng / Tích vectơ** (Mathematics/Physics - *Cross Product*)
   - *Định nghĩa*: Một phép toán trên hai vectơ trong không gian ba chiều ($\mathbb{R}^3$), kết quả trả về là một vectơ mới vuông góc với cả hai vectơ ban đầu.
   - *Ký hiệu*: $\mathbf{a} \times \mathbf{b} = \mathbf{c}$.
@@ -282,3 +307,45 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Ví dụ*: "Don't be cross with me." (Đừng giận tôi nhé.)
 - **Nghĩa 6: Đối chéo / Liên quan chéo** (Technical - *Cross-*)
   - *Ví dụ*: "Cross-validation" (Kiểm chéo - Thống kê), "Cross-reference" (Tham chiếu chéo).
+
+### **consider**
+- **Phiên âm**: /kənˈsɪd.ər/
+- **Nghĩa 1: Xét / Giả sử / Cho** (Mathematics - Introduction)
+  - *Định nghĩa*: Dùng để bắt đầu một lập luận bằng cách giới thiệu một thực thể toán học (tập hợp, hàm số, biến số,...) để phân tích.
+  - *Ví dụ*: "Consider a function $f: \mathbb{R} \to \mathbb{R}$ that is continuous." (Xét một hàm số $f: \mathbb{R} \to \mathbb{R}$ liên tục.)
+  - *Ví dụ*: "Consider the case where $n$ is an even integer." (Xét trường hợp $n$ là một số nguyên chẵn.)
+- **Nghĩa 2: Cân nhắc / Xem xét** (Verb - Analysis)
+  - *Định nghĩa*: Suy nghĩ kỹ về điều gì đó, đặc biệt là trước khi đưa ra quyết định hoặc khi giải quyết một vấn đề kỹ thuật.
+  - *Ví dụ*: "We need to consider the constraints of the system." (Chúng ta cần xem xét các ràng buộc của hệ thống.)
+- **Nghĩa 3: Coi là / Xem như là** (Verb - Regard)
+  - *Ví dụ*: "This algorithm is considered the state-of-the-art for image recognition." (Thuật toán này được coi là hiện đại nhất cho nhận dạng hình ảnh.)
+- **Nghĩa 4: Để ý đến / Tính đến** (Verb - Take into account)
+  - *Ví dụ*: "The model does not consider the effects of friction." (Mô hình này không tính đến các tác động của ma sát.)
+
+### **recognize**
+- **Phiên âm**: /ˈrek.əɡ.naɪz/
+- **Nghĩa 1: Nhận diện / Nhận dạng** (Computer Science - *Pattern Recognition*)
+  - *Định nghĩa*: Khả năng của hệ thống (AI/ML) trong việc xác định các mẫu, đối tượng hoặc tín hiệu từ dữ liệu thô.
+  - *Ví dụ*: "The software can recognize handwritten digits with high accuracy." (Phần mềm có thể nhận diện các chữ số viết tay với độ chính xác cao.)
+- **Nghĩa 2: Nhận ra / Xác định cấu trúc** (Mathematics)
+  - *Định nghĩa*: Nhận ra một cấu trúc toán học cụ thể hoặc một hằng đẳng thức trong một biểu thức phức tạp.
+  - *Ví dụ*: "One should recognize the expression as a Taylor series expansion." (Người ta nên nhận ra biểu thức đó là một khai triển chuỗi Taylor.)
+- **Nghĩa 3: Công nhận / Thừa nhận** (Verb - Validity)
+  - *Ví dụ*: "The theorem is globally recognized as a fundamental result in topology." (Định lý này được công nhận rộng rãi là một kết quả nền tảng trong tô-pô.)
+- **Nghĩa 4: Nhận ra (người/vật)** (Common usage)
+  - *Ví dụ*: "I didn't recognize him with his new haircut." (Tôi không nhận ra anh ấy với kiểu tóc mới.)
+
+### **strategy**
+- **Phiên âm**: /ˈstræt.ə.dʒi/
+- **Nghĩa 1: Chiến lược / Phương pháp hành động** (Mathematics - *Game Theory*)
+  - *Định nghĩa*: Một kế hoạch hành động đầy đủ quy định hành vi của một người chơi trong mọi tình huống có thể xảy ra trong một trò chơi.
+  - *Optimal Strategy*: Chiến lược tối ưu giúp tối đa hóa lợi nhuận hoặc tối thiểu hóa tổn thất.
+  - *Ví dụ*: "In a zero-sum game, finding the minimax strategy is crucial." (Trong một trò chơi có tổng bằng không, việc tìm ra chiến lược minimax là vô cùng quan trọng.)
+- **Nghĩa 2: Mẫu thiết kế chiến lược** (Computer Science - *Strategy Pattern*)
+  - *Định nghĩa*: Một mẫu thiết kế hành vi cho phép chọn thuật toán tại thời điểm thực thi (runtime). Thay vì triển khai một thuật toán duy nhất trực tiếp, mã sẽ nhận các hướng dẫn về thuật toán nào trong một họ các thuật toán sẽ được sử dụng.
+  - *Ví dụ*: "The Strategy Pattern is useful for switching between different sorting algorithms." (Strategy Pattern rất hữu ích cho việc chuyển đổi giữa các thuật toán sắp xếp khác nhau.)
+- **Nghĩa 3: Chiến lược / Kế hoạch tổng thể** (Noun - General/Technical)
+  - *Định nghĩa*: Một kế hoạch dài hạn nhằm đạt được một mục tiêu cụ thể, thường trong điều kiện không chắc chắn.
+  - *Ví dụ*: "The company developed a new strategy to migrate their infrastructure to the cloud." (Công ty đã xây dựng một chiến lược mới để chuyển đổi hạ tầng của họ lên đám mây.)
+
+
