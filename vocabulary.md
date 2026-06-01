@@ -46,6 +46,9 @@ This file is for storing new English words with their Vietnamese meanings and di
 | enlarged | Phóng to, mở rộng, sưng to | Phép vị tự (Toán); Phóng đại (Quang học); Y học. |
 | shrunk | Thu nhỏ, co lại, thu hẹp | Phép co (Toán); Nén dữ liệu (CS); Thống kê. |
 | weights | Trọng số, trọng lượng, quả cân | Trọng số (ML/Toán); Trọng lượng (Lý). |
+| illustration | Minh họa, hình vẽ, ví dụ cụ thể | Minh họa (Toán/CS); Hình vẽ kỹ thuật. |
+| adjugate | Ma trận liên hợp, ma trận phụ hợp | Đại số tuyến tính; Tìm ma trận nghịch đảo. |
+| minor | Định thức con, thứ yếu, người vị thành niên | Ma trận (Toán); Âm giai thứ (Nhạc); Nhỏ. |
 
 ---
 
@@ -475,6 +478,49 @@ This file is for storing new English words with their Vietnamese meanings and di
 - **Nghĩa 4: Quả cân / Vật nặng** (Noun - General)
   - *Ví dụ*: "The athlete is lifting weights at the gym." (Vận động viên đang nâng tạ tại phòng tập.)
   - *Ví dụ*: "Paperweights prevent documents from blowing away." (Cục chặn giấy giúp tài liệu không bị bay mất.)
+
+### **illustration**
+- **Phiên âm**: /ˌɪl.əˈstreɪ.ʃən/
+- **Nghĩa 1: Sự minh họa / Hình vẽ minh họa** (Mathematics & Science)
+  - *Định nghĩa*: Việc sử dụng hình ảnh, biểu đồ hoặc ví dụ cụ thể để làm rõ một khái niệm, định lý hoặc dữ liệu.
+  - *Geometric Illustration*: Minh họa hình học (giúp hình dung các tính chất trừu tượng).
+  - *Ví dụ*: "The following diagram provides a geometric illustration of the Pythagorean theorem." (Biểu đồ sau đây cung cấp một minh họa hình học cho định lý Pitago.)
+- **Nghĩa 2: Ví dụ điển hình / Sự làm sáng tỏ** (Noun - Conceptual)
+  - *Định nghĩa*: Một trường hợp cụ thể dùng để giải thích hoặc chứng minh cho một quy tắc tổng quát.
+  - *By way of illustration*: Để minh họa cho điều vừa nói.
+  - *Ví dụ*: "This case serves as a clear illustration of the challenges in distributed computing." (Trường hợp này đóng vai trò như một ví dụ minh họa rõ ràng cho những thách thức trong tính toán phân tán.)
+- **Nghĩa 3: Tranh minh họa / Hình vẽ** (Arts & Publishing)
+  - *Ví dụ*: "The book contains beautiful illustrations of various plants." (Cuốn sách chứa những hình vẽ minh họa tuyệt đẹp về các loài thực vật khác nhau.)
+- **Nghĩa 4: Sự giải thích bằng ví dụ** (Verb derivative - *Illustrate*)
+  - *Ví dụ*: "To illustrate my point, let's look at the following data set." (Để minh họa cho quan điểm của mình, hãy cùng nhìn vào tập dữ liệu sau đây.)
+
+### **adjugate**
+- **Phiên âm**: /ˈædʒ.ə.ɡət/
+- **Nghĩa: Ma trận liên hợp / Ma trận phụ hợp** (Mathematics - Linear Algebra)
+  - *Định nghĩa*: Ma trận adjugate của một ma trận vuông $A$, ký hiệu là $\text{adj}(A)$, là **chuyển vị** của ma trận các phần phụ đại số (cofactor matrix) của $A$.
+  - *Công thức*: $\text{adj}(A) = C^T$, trong đó $C$ là ma trận các phần phụ đại số.
+  - *Mối quan hệ với ma trận nghịch đảo*: $A \cdot \text{adj}(A) = \det(A)I$. Do đó, nếu $\det(A) \neq 0$, thì $A^{-1} = \frac{1}{\det(A)}\text{adj}(A)$.
+  - *Lưu ý*: Trước đây nó thường được gọi là *classical adjoint*, nhưng ngày nay thuật ngữ *adjoint* thường dùng cho ma trận chuyển vị liên hợp (conjugate transpose).
+  - *Ví dụ*: "To find the inverse of a $2 \times 2$ matrix, we can use the adjugate matrix and the determinant." (Để tìm nghịch đảo của một ma trận $2 \times 2$, chúng ta có thể sử dụng ma trận liên hợp và định thức.)
+
+### **minor**
+- **Phiên âm**: /ˈmaɪ.nər/
+- **Nghĩa 1: Định thức con** (Mathematics - Linear Algebra)
+  - *Định nghĩa*: Định thức của một ma trận con được tạo thành bằng cách xóa đi một số hàng và cột của ma trận ban đầu.
+  - *First Minor ($M_{ij}$)*: Định thức của ma trận vuông có được bằng cách xóa hàng thứ $i$ và cột thứ $j$ của ma trận $A$.
+  - *Ví dụ*: "The cofactor $C_{ij}$ is calculated as $(-1)^{i+j} M_{ij}$, where $M_{ij}$ is the minor." (Phần phụ đại số $C_{ij}$ được tính bằng $(-1)^{i+j} M_{ij}$, trong đó $M_{ij}$ là định thức con.)
+- **Nghĩa 2: Thứ yếu / Nhỏ / Không quan trọng** (Adjective - General)
+  - *Định nghĩa*: Có kích thước, mức độ hoặc tầm quan trọng nhỏ hơn khi so với những cái khác.
+  - *Ví dụ*: "We made some minor adjustments to the algorithm to improve performance." (Chúng tôi đã thực hiện một vài điều chỉnh nhỏ cho thuật toán để cải thiện hiệu suất.)
+- **Nghĩa 3: Người vị thành niên** (Noun - Legal)
+  - *Ví dụ*: "It is illegal to sell alcohol to minors." (Bán đồ uống có cồn cho người vị thành niên là bất hợp pháp.)
+- **Nghĩa 4: Âm giai thứ / Hợp âm thứ** (Music)
+  - *Ví dụ*: "The symphony is written in C minor." (Bản giao hưởng được viết ở cung Đô thứ.)
+- **Nghĩa 5: Chuyên ngành phụ** (Education - US/Canada)
+  - *Ví dụ*: "He is majoring in Physics with a minor in Mathematics." (Anh ấy học chuyên ngành chính là Vật lý và chuyên ngành phụ là Toán học.)
+
+
+
 
 
 
