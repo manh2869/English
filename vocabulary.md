@@ -5,9 +5,7 @@ This file is for storing new English words with their Vietnamese meanings and di
 ## Template
 - **Word**: [English Word]
   - **Meaning 1**: [Vietnamese Meaning]
-    - *Example*: [Example sentence]
   - **Meaning 2**: [Vietnamese Meaning]
-    - *Example*: [Example sentence]
 
 ---
 
