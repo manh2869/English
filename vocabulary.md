@@ -49,6 +49,9 @@ This file is for storing new English words with their Vietnamese meanings and di
 | components | Thành phần (Toán/Lý) | Thành phần vectơ; Thành phần liên thông; Linh kiện. |
 | subscriptable | Có thể đánh chỉ số (CS/Python) | Truy cập phần tử qua index; __getitem__; Chỉ số dưới. |
 | iterable | Có thể duyệt qua (CS/Python) | Có thể lặp; __iter__; Chuỗi/Tập hợp các phần tử. |
+| contiguous | Kế cận, tiếp giáp (Toán); Liên tục (Bộ nhớ - CS) | Contiguous memory; Touching. |
+| yield | Cho ra, mang lại (Toán); Tạm dừng và trả về (CS); Lợi suất (Tài chính); Giới hạn đàn hồi (Vật lý) | Python generator; Yield strength; Dividend yield. |
+| intuitive | Trực giác, dễ hiểu (Toán/CS) | Geometric intuition; User-friendly. |
 
 ---
 
@@ -325,4 +328,38 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Cơ chế*: Trong Python, một đối tượng là iterable khi nó triển khai phương thức dunder `__iter__` (trả về một iterator) hoặc phương thức `__getitem__` với các chỉ số bắt đầu từ 0.
 - **Nghĩa 2: Có thể liệt kê / Tập hợp đếm được** (Mathematics)
   - *Ngữ cảnh*: Liên quan đến các dãy số (sequences) hoặc tập hợp mà các phần tử có thể được liệt kê theo một thứ tự xác định, tương ứng với khái niệm tập hợp đếm được (countable sets) hoặc các cấu trúc có thể thực hiện phép lấy tổng (summation over an index set).
+
+### **contiguous**
+- **Phiên âm**: /kənˈtɪɡ.ju.əs/
+- **Nghĩa 1: Kế cận / Tiếp giáp** (Mathematics - Geometry & Topology)
+  - *Định nghĩa*: Các đối tượng hình học chia sẻ biên giới chung hoặc tiếp xúc trực tiếp.
+- **Nghĩa 2: Liên tục / Khối nhớ liên tiếp** (Computer Science - *Memory Management*)
+  - *Định nghĩa*: Các ô nhớ hoặc phần tử dữ liệu nằm ở các địa chỉ liên tiếp nhau trong bộ nhớ vật lý.
+- **Nghĩa 3: Miền tiếp giáp** (Mathematics - Analysis)
+  - *Định nghĩa*: Các tập hợp hoặc khoảng có điểm biên chung.
+
+### **yield**
+- **Phiên âm**: /jiːld/
+- **Nghĩa 1: Cho ra / Mang lại kết quả** (Mathematics - Computation)
+  - *Định nghĩa*: Kết quả trả về từ một phương trình, hàm số hoặc quá trình tính toán.
+- **Nghĩa 2: Tạm dừng và trả về giá trị** (Computer Science - *Generators*)
+  - *Định nghĩa*: Từ khóa dùng để tạm dừng thực thi hàm generator và trả về một giá trị trung gian mà không làm mất trạng thái của hàm.
+- **Nghĩa 3: Lợi suất** (Mathematics - Finance)
+  - *Định nghĩa*: Tỉ lệ thu nhập thu được từ một khoản đầu tư hoặc tài sản tài chính.
+- **Nghĩa 4: Giới hạn đàn hồi / Điểm chảy** (Physics - *Materials Science*)
+  - *Định nghĩa*: Mức ứng suất mà tại đó vật liệu bắt đầu biến dạng dẻo vĩnh viễn.
+
+### **intuitive**
+- **Phiên âm**: /ɪnˈtʃuː.ɪ.tɪv/
+- **Nghĩa 1: Trực giác / Cảm nhận trực tiếp** (Mathematics - *Geometric Intuition*)
+  - *Định nghĩa*: Khả năng hiểu cấu trúc toán học thông qua hình ảnh trực quan trước khi thực hiện chứng minh hình thức.
+- **Nghĩa 2: Dễ hiểu / Tự nhiên** (Computer Science - *UX/UI Design*)
+  - *Định nghĩa*: Hệ thống hoặc giao diện được thiết kế để người dùng có thể vận hành mà không cần qua đào tạo hoặc tài liệu hướng dẫn.
+
+### **assert**
+- **Phiên âm**: /əˈsɜːt/
+- **Nghĩa 1: Khẳng định / Phát biểu** (Mathematics - *Formal Logic*)
+  - *Định nghĩa*: Đưa ra một tuyên bố hoặc giả định được coi là đúng trong một hệ thống logic hoặc chứng minh.
+- **Nghĩa 2: Kiểm tra điều kiện / Xác nhận đúng đắn** (Computer Science - *Testing & Debugging*)
+  - *Định nghĩa*: Một câu lệnh hoặc hàm dùng để kiểm tra tính đúng đắn của một giả định trong mã nguồn. Nếu điều kiện là sai, chương trình sẽ dừng lại hoặc ném ra ngoại lệ.
 
