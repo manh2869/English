@@ -44,14 +44,16 @@ This file is for storing new English words with their Vietnamese meanings and di
 | adjugate | Ma trận liên hợp (Toán) | Đại số tuyến tính. |
 | minor | Định thức con (Toán) | Ma trận con. |
 | transpose | Chuyển vị ma trận (Toán) | Đổi hàng thành cột. |
-| stability | Tính ổn định (Toán/Lý) | Hệ thống động lực; Thuật toán số; Trạng thái cân bằng. |
-| dunder | Gạch dưới kép (CS/Python) | Magic methods; Phương thức đặc biệt; Tùy biến lớp. |
-| components | Thành phần (Toán/Lý) | Thành phần vectơ; Thành phần liên thông; Linh kiện. |
-| subscriptable | Có thể đánh chỉ số (CS/Python) | Truy cập phần tử qua index; __getitem__; Chỉ số dưới. |
-| iterable | Có thể duyệt qua (CS/Python) | Có thể lặp; __iter__; Chuỗi/Tập hợp các phần tử. |
-| contiguous | Kế cận, tiếp giáp (Toán); Liên tục (Bộ nhớ - CS) | Contiguous memory; Touching. |
-| yield | Cho ra, mang lại (Toán); Tạm dừng và trả về (CS); Lợi suất (Tài chính); Giới hạn đàn hồi (Vật lý) | Python generator; Yield strength; Dividend yield. |
-| intuitive | Trực giác, dễ hiểu (Toán/CS) | Geometric intuition; User-friendly. |
+| stability | Tính ổn định (Toán) | Hệ thống động lực; Thuật toán số. |
+| dunder | Gạch dưới kép (CS/Python) | Magic methods; Phương thức đặc biệt. |
+| components | Thành phần (Toán) | Thành phần vectơ; Thành phần liên thông. |
+| subscriptable | Có thể đánh chỉ số (Toán/CS) | Truy cập phần tử; Chỉ số dưới. |
+| iterable | Có thể duyệt qua (Toán/CS) | Có thể lặp; Tập hợp đếm được. |
+| contiguous | Kế cận (Toán); Liên tục (Bộ nhớ - CS) | Memory; Touching. |
+| yield | Cho ra (Toán); Tạm dừng và trả về (CS) | Python generator. |
+| intuitive | Trực giác (Toán) | Geometric intuition. |
+| transaction | Giao dịch (CS/Database) | Atomic unit of work. |
+| Normalize | Chuẩn hóa (Toán/AI) | Vector norm = 1; Feature scaling. |
 
 ---
 
@@ -148,7 +150,7 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Định nghĩa*: Một tập hợp các vectơ được gọi là trực chuẩn nếu chúng thỏa mãn đồng thời hai điều kiện:
     1. **Orthogonal (Trực giao)**: Các vectơ đôi một vuông góc với nhau (tích vô hướng bằng 0).
     2. **Normalized (Chuẩn hóa)**: Mỗi vectơ đều có độ dài (norm) bằng 1.
-  - *Công thức*: $v_i \cdot v_j = \delta_{ij}$ (Bằng 1 nếu $i=j$, bằng 0 nếu $i \neq j$).
+  - *Công thức*: $v_i \cdot v_j = \delta_{ij}$ (Bằng 1 nếu $i=j$, bằng 0 if $i \neq j$).
   - *Ý nghĩa*: Cơ sở trực chuẩn giúp đơn giản hóa cực kỳ nhiều các phép tính toán và biến đổi trong không gian vectơ.
 
 ### **decomposition**
@@ -291,33 +293,26 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Asymptotic Stability*: Hệ thống không chỉ ổn định mà còn hội tụ về điểm cân bằng khi $t \to \infty$.
 - **Nghĩa 2: Tính ổn định số học** (Mathematics - Numerical Analysis)
   - *Định nghĩa*: Khả năng của một thuật toán toán học đảm bảo rằng các sai số (như sai số làm tròn - rounding errors) không bị khuếch đại quá mức trong quá trình tính toán.
-- **Nghĩa 3: Độ ổn định (Vật lý/Kỹ thuật)** (Physics & Control Theory)
-  - *Định nghĩa*: Khả năng của một hệ thống điều khiển quay trở lại trạng thái cân bằng sau khi chịu tác động của ngoại lực hoặc nhiễu.
 
-  ### **dunder**
-  - **Phiên âm**: /ˈdʌn.dər/
-  - **Nghĩa: Gạch dưới kép** (Computer Science - Python)
+### **dunder**
+- **Phiên âm**: /ˈdʌn.dər/
+- **Nghĩa: Gạch dưới kép** (Computer Science - Python)
   - *Định nghĩa*: Là cách gọi tắt của "Double Under" (Double Underscore). Trong ngôn ngữ lập trình Python, dunder dùng để chỉ các phương thức hoặc thuộc tính bắt đầu và kết thúc bằng hai dấu gạch dưới (ví dụ: `__init__`, `__add__`).
   - *Magic Methods / Special Methods*: Dunder methods cho phép người dùng tùy biến hành vi của các đối tượng trong Python (như nạp chồng toán tử, khởi tạo đối tượng, hoặc đại diện chuỗi).
-  - *Name Mangling*: Dấu gạch dưới kép ở phía trước một tên thuộc tính trong lớp (ví dụ: `__attribute`) được Python sử dụng để tránh xung đột tên trong các lớp con.
 
 ### **components**
 - **Phiên âm**: /kəmˈpəʊ.nənts/
-- **Nghĩa 1: Thành phần (Vectơ/Lực)** (Mathematics & Physics)
+- **Nghĩa 1: Thành phần (Vectơ/Lực)** (Mathematics)
   - *Định nghĩa*: Các phần riêng lẻ tạo nên một vectơ khi được phân tích theo các trục tọa độ. Một vectơ $\mathbf{v}$ trong 2D có các thành phần $(v_x, v_y)$.
   - *Vector Components*: Các vectơ thành phần thường được biểu diễn bằng các vectơ đơn vị: $\mathbf{v} = v_x\mathbf{i} + v_y\mathbf{j} + v_z\mathbf{k}$.
 - **Nghĩa 2: Thành phần liên thông** (Mathematics - Graph Theory & Topology)
   - *Định nghĩa*: Một tập hợp con các đỉnh trong một đồ thị mà giữa hai đỉnh bất kỳ luôn có đường đi, và không có đỉnh nào trong tập hợp này có đường đi đến các đỉnh nằm ngoài tập hợp.
   - *Connected Components*: Số lượng các thành phần liên thông là một bất biến tô-pô quan trọng.
-- **Nghĩa 3: Linh kiện / Thành phần hệ thống** (Physics & Engineering)
-  - *Định nghĩa*: Các bộ phận cấu thành nên một mạch điện hoặc một hệ thống phức tạp.
-  - *Electronic Components*: Điện trở, tụ điện, transistor, v.v.
 
 ### **subscriptable**
 - **Phiên âm**: /ˌsʌbˈskrɪp.tə.bəl/
 - **Nghĩa 1: Có thể đánh chỉ số / Có thể truy cập qua chỉ số** (Computer Science - Python)
   - *Định nghĩa*: Một đối tượng được gọi là "subscriptable" nếu nó hỗ trợ việc truy cập các phần tử bên trong thông qua chỉ số (index) hoặc khóa (key) bằng toán tử ngoặc vuông `[]`.
-  - *Cơ chế*: Trong Python, một đối tượng là subscriptable khi lớp của nó triển khai phương thức dunder `__getitem__`. Các kiểu dữ liệu phổ biến bao gồm `list`, `tuple`, `dict`, và `str`.
 - **Nghĩa 2: Có thể viết chỉ số dưới** (Mathematics/Notation)
   - *Ngữ cảnh*: Dùng để mô tả một biến hoặc ký hiệu có thể đi kèm với chỉ số dưới (subscript) để phân biệt các phần tử trong một tập hợp hoặc các thành phần của một vectơ (ví dụ: $x_i, a_{11}$).
 
@@ -325,9 +320,8 @@ This file is for storing new English words with their Vietnamese meanings and di
 - **Phiên âm**: /ˈɪt.ər.ə.bəl/
 - **Nghĩa 1: Có thể duyệt qua / Có thể lặp** (Computer Science - Python)
   - *Định nghĩa*: Một đối tượng được coi là "iterable" nếu nó có khả năng trả về các thành phần của mình từng cái một, cho phép nó được duyệt qua trong một vòng lặp (như vòng lặp `for`).
-  - *Cơ chế*: Trong Python, một đối tượng là iterable khi nó triển khai phương thức dunder `__iter__` (trả về một iterator) hoặc phương thức `__getitem__` với các chỉ số bắt đầu từ 0.
 - **Nghĩa 2: Có thể liệt kê / Tập hợp đếm được** (Mathematics)
-  - *Ngữ cảnh*: Liên quan đến các dãy số (sequences) hoặc tập hợp mà các phần tử có thể được liệt kê theo một thứ tự xác định, tương ứng với khái niệm tập hợp đếm được (countable sets) hoặc các cấu trúc có thể thực hiện phép lấy tổng (summation over an index set).
+  - *Ngữ cảnh*: Liên quan đến các dãy số (sequences) hoặc tập hợp mà các phần tử có thể được liệt kê theo một thứ tự xác định.
 
 ### **contiguous**
 - **Phiên âm**: /kənˈtɪɡ.ju.əs/
@@ -344,22 +338,32 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Định nghĩa*: Kết quả trả về từ một phương trình, hàm số hoặc quá trình tính toán.
 - **Nghĩa 2: Tạm dừng và trả về giá trị** (Computer Science - *Generators*)
   - *Định nghĩa*: Từ khóa dùng để tạm dừng thực thi hàm generator và trả về một giá trị trung gian mà không làm mất trạng thái của hàm.
-- **Nghĩa 3: Lợi suất** (Mathematics - Finance)
-  - *Định nghĩa*: Tỉ lệ thu nhập thu được từ một khoản đầu tư hoặc tài sản tài chính.
-- **Nghĩa 4: Giới hạn đàn hồi / Điểm chảy** (Physics - *Materials Science*)
-  - *Định nghĩa*: Mức ứng suất mà tại đó vật liệu bắt đầu biến dạng dẻo vĩnh viễn.
 
 ### **intuitive**
 - **Phiên âm**: /ɪnˈtʃuː.ɪ.tɪv/
 - **Nghĩa 1: Trực giác / Cảm nhận trực tiếp** (Mathematics - *Geometric Intuition*)
   - *Định nghĩa*: Khả năng hiểu cấu trúc toán học thông qua hình ảnh trực quan trước khi thực hiện chứng minh hình thức.
-- **Nghĩa 2: Dễ hiểu / Tự nhiên** (Computer Science - *UX/UI Design*)
-  - *Định nghĩa*: Hệ thống hoặc giao diện được thiết kế để người dùng có thể vận hành mà không cần qua đào tạo hoặc tài liệu hướng dẫn.
 
 ### **assert**
 - **Phiên âm**: /əˈsɜːt/
 - **Nghĩa 1: Khẳng định / Phát biểu** (Mathematics - *Formal Logic*)
   - *Định nghĩa*: Đưa ra một tuyên bố hoặc giả định được coi là đúng trong một hệ thống logic hoặc chứng minh.
 - **Nghĩa 2: Kiểm tra điều kiện / Xác nhận đúng đắn** (Computer Science - *Testing & Debugging*)
-  - *Định nghĩa*: Một câu lệnh hoặc hàm dùng để kiểm tra tính đúng đắn của một giả định trong mã nguồn. Nếu điều kiện là sai, chương trình sẽ dừng lại hoặc ném ra ngoại lệ.
+  - *Định nghĩa*: Một câu lệnh hoặc hàm dùng để kiểm tra tính đúng đắn của một giả định trong mã nguồn.
 
+### **curriculum**
+- **Phiên âm**: /kəˈrɪk.jə.ləm/
+- **Nghĩa 1: Chiến lược huấn luyện theo lộ trình** (Computer Science - *Machine Learning*)
+  - *Định nghĩa*: Một phương pháp huấn luyện mô hình học máy trong đó dữ liệu được trình bày theo thứ tự từ dễ đến khó để tối ưu hóa quá trình hội tụ và hiệu suất.
+
+### **transaction**
+- **Phiên âm**: /trænˈzæk.ʃən/
+- **Nghĩa 1: Giao dịch / Đơn vị công việc logic** (Computer Science - *Databases*)
+  - *Định nghĩa*: Một đơn vị công việc logic duy nhất trong hệ thống quản trị cơ sở dữ liệu, bao gồm một chuỗi các thao tác. Nó phải tuân thủ tính chất ACID (Atomicity, Consistency, Isolation, Durability).
+
+### **Normalize**
+- **Phiên âm**: /ˈnɔː.mə.laɪz/
+- **Nghĩa 1: Chuẩn hóa vectơ** (Mathematics - *Linear Algebra*)
+  - *Định nghĩa*: Phép chia một vectơ cho độ dài (norm) của chính nó để tạo ra một vectơ đơn vị có độ dài bằng 1.
+- **Nghĩa 2: Chuẩn hóa dữ liệu** (Statistics & Machine Learning)
+  - *Định nghĩa*: Điều chỉnh các giá trị đo lường về một thang đo chung (thường là [0, 1]) để tối ưu hóa quá trình huấn luyện mô hình.
