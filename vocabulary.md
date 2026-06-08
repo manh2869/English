@@ -56,6 +56,10 @@ This file is for storing new English words with their Vietnamese meanings and di
 | transaction | Giao dịch (CS/Database) | Atomic unit of work. |
 | embedding | Phép nhúng, vectơ nhúng (AI/Toán) | Word embedding; Injective mapping. |
 | Normalize | Chuẩn hóa (Toán/AI) | Vector norm = 1; Feature scaling. |
+| properties | Tính chất (Toán); Thuộc tính (CS) | Mathematical properties; Object properties. |
+| Symmetry | Đối xứng (Toán) | Symmetric matrix; Invariant under transformation. |
+| parallelogram | Hình bình hành (Toán) | Vector addition; Cross product area. |
+| proof | Chứng minh (Toán/Logic) | Formal demonstration; Mathematical proof. |
 
 ---
 
@@ -369,6 +373,36 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Định nghĩa*: Phép chia một vectơ cho độ dài (norm) của chính nó để tạo ra một vectơ đơn vị có độ dài bằng 1.
 - **Nghĩa 2: Chuẩn hóa dữ liệu** (Statistics & Machine Learning)
   - *Định nghĩa*: Điều chỉnh các giá trị đo lường về một thang đo chung (thường là [0, 1]) để tối ưu hóa quá trình huấn luyện mô hình.
+
+### **properties**
+- **Phiên âm**: /ˈprɒp.ə.tiz/
+- **Nghĩa 1: Tính chất** (Mathematics - *Mathematical properties*)
+  - *Định nghĩa*: Các đặc điểm hoặc quy tắc cố định áp dụng cho các thực thể toán học (như tính chất giao hoán, kết hợp, phân phối).
+- **Nghĩa 2: Thuộc tính** (Computer Science - *Object properties*)
+  - *Định nghĩa*: Các đặc điểm, dữ liệu hoặc trạng thái được lưu trữ bên trong một đối tượng hoặc lớp trong lập trình.
+
+### **parallelogram**
+- **Phiên âm**: /ˌpær.əˈlel.ə.ɡræm/
+- **Nghĩa 1: Hình bình hành** (Mathematics - *Geometry*)
+  - *Định nghĩa*: Một hình tứ giác có các cặp cạnh đối song song và bằng nhau.
+- **Nghĩa 2: Quy tắc hình bình hành / Diện tích vectơ** (Mathematics - *Linear Algebra & Physics*)
+  - *Parallelogram Law*: Quy tắc cộng hai vectơ bằng cách tạo thành một hình bình hành, trong đó đường chéo chính là vectơ tổng.
+  - *Ý nghĩa hình học*: Diện tích của hình bình hành được tạo bởi hai vectơ $\mathbf{a}$ và $\mathbf{b}$ chính bằng độ lớn của tích có hướng (cross product) của chúng: $\|\mathbf{a} \times \mathbf{b}\|$.
+
+### **proof**
+- **Phiên âm**: /pruːf/
+- **Nghĩa 1: Chứng minh / Sự chứng minh** (Mathematics)
+  - *Định nghĩa*: Một lập luận suy diễn cho một mệnh đề toán học, cho thấy các giả thiết đã cho nhất thiết dẫn đến kết luận.
+- **Nghĩa 2: Kiểm chứng / Xác minh hình thức** (Computer Science - *Formal Verification*)
+  - *Định nghĩa*: Việc sử dụng các phương pháp toán học để chứng minh tính đúng đắn của một thuật toán hoặc phần mềm so với các đặc tả hình thức.
+
+
+### **Symmetry**
+- **Phiên âm**: /ˈsɪm.ə.tri/
+- **Nghĩa 1: Đối xứng** (Mathematics - *Geometry & Algebra*)
+  - *Định nghĩa*: Một thuộc tính của một đối tượng toán học (như hình học, ma trận, hoặc hàm số) mà nó vẫn giữ nguyên (không đổi) sau khi áp dụng một phép biến đổi nhất định (như phép quay, phép tịnh tiến, hoặc phép phản chiếu).
+  - *Symmetric Matrix*: Một ma trận vuông $A$ mà $A = A^T$.
+  - *Symmetry Breaking*: Trong AI và vật lý, là hiện tượng một hệ thống có tính đối xứng bị mất đi tính chất đó do các nhiễu loạn hoặc quá trình tối ưu hóa.
 
 ### **embedding**
 - **Phiên âm**: /ˈem.bed.ɪŋ/
