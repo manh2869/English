@@ -46,6 +46,7 @@ This file is for storing new English words with their Vietnamese meanings and di
 | transpose | Chuyển vị ma trận (Toán) | Đổi hàng thành cột. |
 | stability | Tính ổn định (Toán) | Hệ thống động lực; Thuật toán số. |
 | dunder | Gạch dưới kép (CS/Python) | Magic methods; Phương thức đặc biệt. |
+| duality | Tính song đối (Toán/Tối ưu hóa) | Primal/Dual problem; Optimization. |
 | components | Thành phần (Toán) | Thành phần vectơ; Thành phần liên thông. |
 | subscriptable | Có thể đánh chỉ số (Toán/CS) | Truy cập phần tử; Chỉ số dưới. |
 | iterable | Có thể duyệt qua (Toán/CS) | Có thể lặp; Tập hợp đếm được. |
@@ -53,6 +54,7 @@ This file is for storing new English words with their Vietnamese meanings and di
 | yield | Cho ra (Toán); Tạm dừng và trả về (CS) | Python generator. |
 | intuitive | Trực giác (Toán) | Geometric intuition. |
 | transaction | Giao dịch (CS/Database) | Atomic unit of work. |
+| embedding | Phép nhúng, vectơ nhúng (AI/Toán) | Word embedding; Injective mapping. |
 | Normalize | Chuẩn hóa (Toán/AI) | Vector norm = 1; Feature scaling. |
 
 ---
@@ -367,3 +369,17 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Định nghĩa*: Phép chia một vectơ cho độ dài (norm) của chính nó để tạo ra một vectơ đơn vị có độ dài bằng 1.
 - **Nghĩa 2: Chuẩn hóa dữ liệu** (Statistics & Machine Learning)
   - *Định nghĩa*: Điều chỉnh các giá trị đo lường về một thang đo chung (thường là [0, 1]) để tối ưu hóa quá trình huấn luyện mô hình.
+
+### **embedding**
+- **Phiên âm**: /ˈem.bed.ɪŋ/
+- **Nghĩa 1: Vectơ nhúng / Không gian nhúng** (Computer Science - *Artificial Intelligence*)
+  - *Định nghĩa*: Một biểu diễn của dữ liệu (như từ, hình ảnh, hoặc đồ thị) dưới dạng các vectơ số thực dày đặc trong một không gian nhiều chiều. Các đối tượng có ý nghĩa tương đương sẽ được đặt gần nhau trong không gian này.
+- **Nghĩa 2: Phép nhúng** (Mathematics - *Topology & Geometry*)
+  - *Định nghĩa*: Một ánh xạ (mapping) giữa hai cấu trúc toán học sao cho cấu trúc thứ nhất được coi là một "bản sao" nằm gọn bên trong cấu trúc thứ hai, bảo toàn các tính chất quan trọng (thường là một đơn ánh liên tục).
+
+### **duality**
+- **Phiên âm**: /djuːˈæl.ə.ti/
+- **Nghĩa 1: Tính song đối / Lý thuyết song đối** (Mathematics - *Optimization*)
+  - *Định nghĩa*: Một nguyên lý trong tối ưu hóa cho rằng mọi bài toán tối ưu hóa (Primal) đều có một bài toán tương ứng (Dual). Nghiệm của bài toán Dual cung cấp một chặn dưới (lower bound) cho bài toán Primal (đối với bài toán tối tiểu hóa).
+- **Nghĩa 2: Tính song đối** (Mathematics - *Linear Algebra & Logic*)
+  - *Định nghĩa*: Mối liên hệ giữa các không gian vectơ và không gian đối ngẫu, hoặc các quy tắc đối xứng trong logic (như định luật De Morgan).
