@@ -60,6 +60,7 @@ This file is for storing new English words with their Vietnamese meanings and di
 | Symmetry | Đối xứng (Toán) | Symmetric matrix; Invariant under transformation. |
 | parallelogram | Hình bình hành (Toán) | Vector addition; Cross product area. |
 | proof | Chứng minh (Toán/Logic) | Formal demonstration; Mathematical proof. |
+| crucial | Cốt yếu, trọng yếu (Kỹ thuật) | Ảnh hưởng quyết định đến hệ thống/thuật toán. |
 
 ---
 
@@ -417,3 +418,8 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Định nghĩa*: Một nguyên lý trong tối ưu hóa cho rằng mọi bài toán tối ưu hóa (Primal) đều có một bài toán tương ứng (Dual). Nghiệm của bài toán Dual cung cấp một chặn dưới (lower bound) cho bài toán Primal (đối với bài toán tối tiểu hóa).
 - **Nghĩa 2: Tính song đối** (Mathematics - *Linear Algebra & Logic*)
   - *Định nghĩa*: Mối liên hệ giữa các không gian vectơ và không gian đối ngẫu, hoặc các quy tắc đối xứng trong logic (như định luật De Morgan).
+
+### **crucial**
+- **Phiên âm**: /ˈkruː.ʃəl/
+- **Nghĩa 1: Cốt yếu / Trọng yếu** (Technical Context - *Critical/Essential components*)
+  - *Định nghĩa*: Mô tả một thành phần, bước hoặc tham số có ảnh hưởng quyết định đến sự vận hành, tính ổn định hoặc độ chính xác của một hệ thống, thuật toán hoặc mô hình.
