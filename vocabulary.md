@@ -46,7 +46,7 @@ This file is for storing new English words with their Vietnamese meanings and di
 | transpose | Chuyển vị ma trận (Toán) | Đổi hàng thành cột. |
 | stability | Tính ổn định (Toán) | Hệ thống động lực; Thuật toán số. |
 | dunder | Gạch dưới kép (CS/Python) | Magic methods; Phương thức đặc biệt. |
-| duality | Tính song đối (Toán/Tối ưu hóa) | Primal/Dual problem; Optimization. |
+| duality | Tính song đối (Toán/Tối ưu hóa); Lưỡng tính (Vật lý) | Primal/Dual; Wave-particle duality. |
 | components | Thành phần (Toán) | Thành phần vectơ; Thành phần liên thông. |
 | subscriptable | Có thể đánh chỉ số (Toán/CS) | Truy cập phần tử; Chỉ số dưới. |
 | iterable | Có thể duyệt qua (Toán/CS) | Có thể lặp; Tập hợp đếm được. |
@@ -66,6 +66,8 @@ This file is for storing new English words with their Vietnamese meanings and di
 | principal | Chính, chủ đạo (Toán); Thực thể định danh (CS) | Principal value/root; Identity/Security principal. |
 | PCA | Phân tích thành phần chính (Thống kê/AI) | Principal Component Analysis; Dimensionality reduction. |
 | recurrent | Tái phát, hồi quy, truy hồi (Toán/AI) | Recurrence relation; Recurrent Neural Network (RNN). |
+| concepts | Khái niệm; Ràng buộc kiểu (CS) | C++20 Concepts; Formal Concept Analysis. |
+| suppose | Giả sử, xét (Toán/Logic) | Assumption; Hypothesis; Proof by contradiction. |
 
 ---
 
@@ -419,9 +421,11 @@ This file is for storing new English words with their Vietnamese meanings and di
 ### **duality**
 - **Phiên âm**: /djuːˈæl.ə.ti/
 - **Nghĩa 1: Tính song đối / Lý thuyết song đối** (Mathematics - *Optimization*)
-  - *Định nghĩa*: Một nguyên lý trong tối ưu hóa cho rằng mọi bài toán tối ưu hóa (Primal) đều có một bài toán tương ứng (Dual). Nghiệm của bài toán Dual cung cấp một chặn dưới (lower bound) cho bài toán Primal (đối với bài toán tối tiểu hóa).
+  - *Định nghĩa*: Một nguyên lý trong tối ưu hóa cho rằng mọi bài toán tối ưu hóa (Primal) đều có một bài toán tương ứng (Dual). Nghiệm của bài toán Dual cung cấp một chặn dưới (lower bound) cho bài toán Primal.
 - **Nghĩa 2: Tính song đối** (Mathematics - *Linear Algebra & Logic*)
   - *Định nghĩa*: Mối liên hệ giữa các không gian vectơ và không gian đối ngẫu, hoặc các quy tắc đối xứng trong logic (như định luật De Morgan).
+- **Nghĩa 3: Lưỡng tính sóng-hạt** (Physics - *Wave-particle duality*)
+  - *Định nghĩa*: Một khái niệm trong cơ học lượng tử cho rằng mọi thực thể lượng tử đều có thể được mô tả như một hạt hoặc một sóng tùy thuộc vào cách thức quan sát.
 
 ### **crucial**
 - **Phiên âm**: /ˈkruː.ʃəl/
@@ -471,3 +475,16 @@ This file is for storing new English words with their Vietnamese meanings and di
   - *Định nghĩa*: Một trạng thái trong xích Markov mà xác suất hệ thống quay trở lại trạng thái đó là bằng 1.
 - **Nghĩa 3: Tái phát / Hồi quy (Mạng thần kinh)** (Computer Science/AI - *Recurrent Neural Networks*)
   - *Định nghĩa*: Một lớp mạng thần kinh nhân tạo trong đó các kết nối giữa các nút tạo thành một đồ thị có hướng dọc theo một chuỗi thời gian. Điều này cho phép mạng thể hiện hành vi động theo thời gian và xử lý các chuỗi dữ liệu đầu vào có độ dài thay đổi.
+
+### **concepts**
+- **Phiên âm**: /ˈkɒn.septs/
+- **Nghĩa 1: Ràng buộc kiểu / Khái niệm lập trình** (Computer Science - *C++20 Concepts*)
+  - *Định nghĩa*: Một tính năng trong lập trình generic (generic programming) cho phép lập trình viên chỉ định các ràng buộc (constraints) trên các tham số template. Nó xác định các yêu cầu mà một kiểu dữ liệu phải thỏa mãn để có thể sử dụng với một hàm hoặc lớp nhất định.
+- **Nghĩa 2: Phân tích khái niệm hình thức** (Mathematics/CS - *Formal Concept Analysis*)
+  - *Định nghĩa*: Một phương pháp toán học dùng để phân tích dữ liệu và trích xuất cấu trúc phân cấp các khái niệm từ một tập hợp các đối tượng và thuộc tính của chúng (thường sử dụng lý thuyết lưới - Lattice Theory).
+
+### **suppose**
+- **Phiên âm**: /səˈpəʊz/
+- **Nghĩa 1: Giả sử / Xét** (Mathematics - *Logic & Proofs*)
+  - *Định nghĩa*: Một từ khóa dùng để giới thiệu một giả thiết (hypothesis), tiền đề (premise) hoặc một trường hợp cụ thể để bắt đầu một lập luận hoặc chứng minh toán học.
+  - *Suppose by contradiction*: Giả sử ngược lại (để thực hiện chứng minh phản chứng).
