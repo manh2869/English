@@ -61,6 +61,11 @@ This file is for storing new English words with their Vietnamese meanings and di
 | parallelogram | Hình bình hành (Toán) | Vector addition; Cross product area. |
 | proof | Chứng minh (Toán/Logic) | Formal demonstration; Mathematical proof. |
 | crucial | Cốt yếu, trọng yếu (Kỹ thuật) | Ảnh hưởng quyết định đến hệ thống/thuật toán. |
+| adjacent | Kề, liền kề (Toán/CS) | Đỉnh kề (Graph); Cạnh kề (Geometry); Ô nhớ kề (Memory). |
+| diagonal | Đường chéo (Toán/CS) | Main diagonal (Matrix); Diagonal traversal (Algorithms). |
+| principal | Chính, chủ đạo (Toán); Thực thể định danh (CS) | Principal value/root; Identity/Security principal. |
+| PCA | Phân tích thành phần chính (Thống kê/AI) | Principal Component Analysis; Dimensionality reduction. |
+| recurrent | Tái phát, hồi quy, truy hồi (Toán/AI) | Recurrence relation; Recurrent Neural Network (RNN). |
 
 ---
 
@@ -397,7 +402,6 @@ This file is for storing new English words with their Vietnamese meanings and di
 - **Nghĩa 2: Kiểm chứng / Xác minh hình thức** (Computer Science - *Formal Verification*)
   - *Định nghĩa*: Việc sử dụng các phương pháp toán học để chứng minh tính đúng đắn của một thuật toán hoặc phần mềm so với các đặc tả hình thức.
 
-
 ### **Symmetry**
 - **Phiên âm**: /ˈsɪm.ə.tri/
 - **Nghĩa 1: Đối xứng** (Mathematics - *Geometry & Algebra*)
@@ -423,3 +427,47 @@ This file is for storing new English words with their Vietnamese meanings and di
 - **Phiên âm**: /ˈkruː.ʃəl/
 - **Nghĩa 1: Cốt yếu / Trọng yếu** (Technical Context - *Critical/Essential components*)
   - *Định nghĩa*: Mô tả một thành phần, bước hoặc tham số có ảnh hưởng quyết định đến sự vận hành, tính ổn định hoặc độ chính xác của một hệ thống, thuật toán hoặc mô hình.
+
+### **adjacent**
+- **Phiên âm**: /əˈdʒeɪ.sənt/
+- **Nghĩa 1: Kề / Liền kề** (Mathematics - *Geometry*)
+  - *Định nghĩa*: Hai góc hoặc hai cạnh được gọi là kề nhau nếu chúng chia sẻ chung một đỉnh (và cạnh đối với góc) mà không có phần diện tích chung.
+- **Nghĩa 2: Đỉnh kề** (Mathematics - *Graph Theory*)
+  - *Định nghĩa*: Hai đỉnh trong một đồ thị được gọi là kề nhau nếu chúng được kết nối trực tiếp bởi một cạnh.
+- **Nghĩa 3: Liền kề bộ nhớ** (Computer Science - *Memory Management*)
+  - *Định nghĩa*: Mô tả các ô nhớ hoặc dữ liệu nằm tại các địa chỉ liên tiếp nhau trong bộ nhớ vật lý.
+
+### **diagonal**
+- **Phiên âm**: /daɪˈæɡ.ən.əl/
+- **Nghĩa 1: Đường chéo** (Mathematics - *Geometry*)
+  - *Định nghĩa*: Một đoạn thẳng nối hai đỉnh không kề nhau của một đa giác hoặc đa diện.
+- **Nghĩa 2: Đường chéo chính** (Mathematics - *Linear Algebra*)
+  - *Định nghĩa*: Trong một ma trận vuông, đường chéo chính (main diagonal) là tập hợp các phần tử $a_{ii}$ chạy từ góc trên bên trái xuống góc dưới bên phải.
+  - *Diagonal Matrix*: Ma trận đường chéo (tất cả các phần tử ngoài đường chéo chính đều bằng 0).
+- **Nghĩa 3: Duyệt chéo** (Computer Science - *Algorithms*)
+  - *Ngữ cảnh*: Kỹ thuật duyệt các phần tử trong mảng hai chiều theo đường chéo (ví dụ: trong bài toán Dynamic Programming hoặc xử lý ảnh).
+
+### **principal**
+- **Phiên âm**: /ˈprɪn.sə.pəl/
+- **Nghĩa 1: Giá trị chính / Căn bậc n chính** (Mathematics - *Analysis & Algebra*)
+  - *Principal Value*: Giá trị được chọn làm giá trị chuẩn cho một hàm đa trị (như hàm ngược lượng giác hoặc logarit phức).
+  - *Principal Square Root*: Căn bậc hai không âm của một số thực không âm.
+- **Nghĩa 2: Thành phần chính** (Statistics/AI - *Principal Component Analysis*)
+  - *Định nghĩa*: Các vectơ trực giao mô tả các hướng có phương sai (variance) lớn nhất trong dữ liệu.
+- **Nghĩa 3: Thực thể định danh / Đối tượng bảo mật** (Computer Science - *Security & Identity*)
+  - *Định nghĩa*: Một thực thể (người dùng, máy tính, hoặc dịch vụ) có thể được hệ thống xác thực và cấp quyền truy cập tài nguyên.
+
+### **PCA**
+- **Phiên âm**: /ˌpiː.siːˈeɪ/
+- **Nghĩa 1: Phân tích thành phần chính** (Statistics & Machine Learning - *Principal Component Analysis*)
+  - *Định nghĩa*: Một thuật toán giảm số chiều dữ liệu (dimensionality reduction) bằng cách biến đổi các biến có tương quan với nhau thành một tập hợp các giá trị của các biến không tương quan tuyến tính gọi là các thành phần chính (principal components).
+  - *Mục tiêu*: Giữ lại lượng thông tin (phương sai) lớn nhất có thể trong khi giảm số lượng biến.
+
+### **recurrent**
+- **Phiên âm**: /rɪˈkʌr.ənt/
+- **Nghĩa 1: Truy hồi / Hệ thức truy hồi** (Mathematics - *Recurrence Relation*)
+  - *Định nghĩa*: Một phương trình xác định mỗi số hạng của một dãy số dựa trên một hoặc nhiều số hạng đứng trước nó (ví dụ: $a_n = a_{n-1} + a_{n-2}$).
+- **Nghĩa 2: Hồi quy / Trạng thái hồi quy** (Mathematics - *Markov Chains*)
+  - *Định nghĩa*: Một trạng thái trong xích Markov mà xác suất hệ thống quay trở lại trạng thái đó là bằng 1.
+- **Nghĩa 3: Tái phát / Hồi quy (Mạng thần kinh)** (Computer Science/AI - *Recurrent Neural Networks*)
+  - *Định nghĩa*: Một lớp mạng thần kinh nhân tạo trong đó các kết nối giữa các nút tạo thành một đồ thị có hướng dọc theo một chuỗi thời gian. Điều này cho phép mạng thể hiện hành vi động theo thời gian và xử lý các chuỗi dữ liệu đầu vào có độ dài thay đổi.
