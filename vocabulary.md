@@ -68,6 +68,13 @@ This file is for storing new English words with their Vietnamese meanings and di
 | recurrent | Tái phát, hồi quy, truy hồi (Toán/AI) | Recurrence relation; Recurrent Neural Network (RNN). |
 | concepts | Khái niệm; Ràng buộc kiểu (CS) | C++20 Concepts; Formal Concept Analysis. |
 | suppose | Giả sử, xét (Toán/Logic) | Assumption; Hypothesis; Proof by contradiction. |
+| derivatives | Đạo hàm (Toán); Đạo hàm tự động (AI) | Rate of change; Automatic differentiation. |
+| interpretation | Phép thông dịch (CS); Sự diễn giải (Logic); Giải thích mô hình (AI) | Code execution; Logical interpretation; Model interpretability. |
+| precise | Độ chính xác, tính nhất quán (Toán/Lý); Số chữ số có nghĩa (Numerical Analysis) | Precision vs Accuracy; Significant digits. |
+| perspective | Phép chiếu phối cảnh (Đồ họa/3D); Hình học xạ ảnh (Toán) | Perspective projection; Projective geometry. |
+| intrinsic | Nội tại, chính yếu (Toán/Hình học); Hàm nội tại (CS); Thuần khiết (Lý) | Intrinsic property; Compiler intrinsics; Intrinsic semiconductor. |
+| conception | Ý niệm thiết kế, phác thảo hệ thống (CS/Kỹ thuật); Sự thụ khái niệm (Logic) | System conception; Conceptual design; Formal conceptualization. |
+| particular | Nghiệm riêng (Toán); Mệnh đề bộ phận (Logic); Phần tử cá biệt (Thống kê) | Particular solution; Particular proposition; Particular instance. |
 
 ---
 
@@ -488,3 +495,75 @@ This file is for storing new English words with their Vietnamese meanings and di
 - **Nghĩa 1: Giả sử / Xét** (Mathematics - *Logic & Proofs*)
   - *Định nghĩa*: Một từ khóa dùng để giới thiệu một giả thiết (hypothesis), tiền đề (premise) hoặc một trường hợp cụ thể để bắt đầu một lập luận hoặc chứng minh toán học.
   - *Suppose by contradiction*: Giả sử ngược lại (để thực hiện chứng minh phản chứng).
+
+### **derivatives**
+- **Phiên âm**: /dɪˈrɪv.ə.tɪvz/
+- **Nghĩa 1: Đạo hàm** (Mathematics - *Calculus*)
+  - *Định nghĩa*: Tỉ lệ thay đổi tức thời của một hàm số tại một điểm cụ thể so với sự thay đổi của biến độc lập. Ký hiệu: $f'(x)$ hoặc $\frac{dy}{dx}$.
+  - *Ý nghĩa hình học*: Hệ số góc của đường tiếp tuyến với đồ thị hàm số tại điểm đó.
+- **Nghĩa 2: Đạo hàm riêng** (Mathematics - *Multivariable Calculus*)
+  - *Định nghĩa*: Đạo hàm của một hàm nhiều biến đối với một biến duy nhất, trong khi các biến khác được giữ cố định. Ký hiệu: $\frac{\partial f}{\partial x}$.
+- **Nghĩa 3: Đạo hàm tự động** (Computer Science/AI - *Automatic Differentiation*)
+  - *Định nghĩa*: Một tập hợp các kỹ thuật để tính đạo hàm của một hàm số được lập trình bằng máy tính một cách chính xác, là nền tảng cho thuật toán Lan truyền ngược (Backpropagation) trong Deep Learning.
+
+### **interpretation**
+- **Phiên âm**: /ɪnˌtɜː.prəˈteɪ.ʃən/
+- **Nghĩa 1: Phép thông dịch** (Computer Science - *Code interpretation*)
+  - *Định nghĩa*: Quá trình thực thi mã nguồn trực tiếp bởi một trình thông dịch (interpreter) theo từng câu lệnh hoặc từng dòng, thay vì biên dịch toàn bộ thành mã máy trước khi chạy.
+- **Nghĩa 2: Sự diễn giải / Cách hiểu một hệ thức** (Logic & Mathematics - *Logical interpretation*)
+  - *Định nghĩa*: Việc gán các ý nghĩa cụ thể (giá trị chân lý, đối tượng, quan hệ) cho các ký hiệu trong một ngôn ngữ hình thức để xác định tính đúng đắn của các mệnh đề.
+- **Nghĩa 3: Khả năng giải thích / Diễn giải mô hình** (AI & Statistics - *Model interpretability*)
+  - *Định nghĩa*: Mức độ mà con người có thể hiểu được nguyên nhân hoặc logic đằng sau một quyết định, dự báo từ một mô hình học máy (ví dụ: Local Interpretable Model-agnostic Explanations - LIME).
+
+### **precise**
+- **Phiên âm**: /prɪˈsaɪs/
+- **Nghĩa 1: Độ chính xác / Tính nhất quán** (Mathematics & Science - *Precision*)
+  - *Định nghĩa*: Sự lặp lại và nhất quán của các kết quả đo lường (các giá trị gần nhau), ngay cả khi chúng không gần với giá trị thực (khác với **Accuracy** - độ đúng).
+- **Nghĩa 2: Độ chính xác số học / Số chữ số có nghĩa** (Numerical Analysis - *Arithmetic precision*)
+  - *Định nghĩa*: Số lượng chữ số (hoặc bit) được sử dụng để biểu diễn một giá trị số. Ví dụ: *Single precision* (32-bit) vs *Double precision* (64-bit).
+- **Nghĩa 3: Xác định rõ ràng / Hình thức** (Logic & Formal Methods)
+  - *Định nghĩa*: Một đặc tả hoặc định nghĩa được trình bày một cách chặt chẽ, không mơ hồ về mặt toán học.
+
+### **perspective**
+- **Phiên âm**: /pəˈspek.tɪv/
+- **Nghĩa 1: Phép chiếu phối cảnh / Ma trận phối cảnh** (Computer Graphics & 3D - *Perspective projection*)
+  - *Định nghĩa*: Phép toán hình học chiếu các điểm từ không gian 3D lên một mặt phẳng 2D (màn hình) sao cho các vật ở xa trông nhỏ hơn các vật ở gần, tạo ra cảm giác về chiều sâu giống như mắt người nhìn thấy.
+- **Nghĩa 2: Hình học xạ ảnh / Biến đổi phối cảnh** (Mathematics - *Projective geometry / Perspective transformation*)
+  - *Định nghĩa*: Sự biến đổi bảo toàn các đường thẳng nhưng không nhất thiết bảo toàn khoảng cách hay góc, thường được biểu diễn thông qua hệ tọa độ đồng nhất (homogeneous coordinates).
+- **Nghĩa 3: Góc nhìn hệ thống / Khung nhìn** (Software Architecture)
+  - *Định nghĩa*: Việc phân tích một hệ thống phức tạp dưới một khía cạnh cụ thể (ví dụ: *data perspective*, *security perspective*).
+
+### **intrinsic**
+- **Phiên âm**: /ɪnˈtrɪn.zɪk/
+- **Nghĩa 1: Thuộc tính nội tại** (Mathematics - *Intrinsic property*)
+  - *Định nghĩa*: Một đặc tính của một đối tượng toán học (thường là một bề mặt hoặc đa tạp) chỉ phụ thuộc vào chính đối tượng đó, không phụ thuộc vào cách nó được đặt (nhúng) trong không gian bên ngoài. Ví dụ: Độ cong Gauss (Gaussian curvature) là một thuộc tính nội tại của bề mặt.
+- **Nghĩa 2: Hàm nội tại / Lệnh nội tại** (Computer Science - *Intrinsic function / Compiler intrinsics*)
+  - *Định nghĩa*: Các hàm được tích hợp sẵn trong trình biên dịch, cho phép truy cập trực tiếp vào các tập lệnh đặc biệt của CPU (như SIMD - Single Instruction, Multiple Data) để tối ưu hóa hiệu năng cực cao mà không cần viết hợp ngữ (assembly).
+- **Nghĩa 3: Thuần khiết / Nội tại** (Physics - *Intrinsic semiconductor*)
+  - *Định nghĩa*: Một chất bán dẫn tinh khiết không có tạp chất pha trộn (doping). Trong trạng thái này, số lượng electron và lỗ trống hoàn toàn do bản chất của vật liệu quyết định.
+
+### **conception**
+- **Phiên âm**: /kənˈsep.ʃən/
+- **Nghĩa 1: Ý niệm thiết kế / Khái niệm phác thảo hệ thống** (Computer Science & Engineering - *System conception / Conceptual design*)
+  - *Định nghĩa*: Giai đoạn đầu tiên trong vòng đời phát triển phần mềm hoặc hệ thống kỹ thuật, nơi ý tưởng cốt lõi, kiến trúc tổng quan và các yêu cầu cấp cao được hình thành và định hình trước khi đi vào thiết kế chi tiết.
+- **Nghĩa 2: Sự khái niệm hóa / Thụ khái niệm** (Logic & Formal Systems - *Formal conceptualization*)
+  - *Định nghĩa*: Quá trình trừu tượng hóa các thực thể thế giới thực để tạo ra một biểu diễn tinh thần hoặc mô hình hình thức (như Ontology) phục vụ cho suy luận logic.
+
+### **particular**
+- **Phiên âm**: /pəˈtɪk.jə.lər/
+- **Nghĩa 1: Nghiệm riêng** (Mathematics - *Particular solution*)
+  - *Định nghĩa*: Một nghiệm cụ thể của một phương trình vi phân thỏa mãn các điều kiện ban đầu (initial conditions) hoặc điều kiện biên (boundary conditions) cho trước, thu được bằng cách gán các giá trị cụ thể cho các hằng số trong nghiệm tổng quát (general solution).
+- **Nghĩa 2: Mệnh đề bộ phận / Phán đoán bộ phận** (Formal Logic - *Particular proposition*)
+  - *Định nghĩa*: Một mệnh đề khẳng định hoặc phủ định chỉ áp dụng cho một số phần tử trong một lớp đối tượng, thường bắt đầu bằng "Một số" (Some). Ví dụ: $\exists x (P(x) \land Q(x))$ ("Có một số x sao cho...").
+- **Nghĩa 3: Phần tử cụ thể / Trường hợp cá biệt** (Statistics & ML - *Particular instance / Specific datum*)
+  - *Định nghĩa*: Một điểm dữ liệu đơn lẻ hoặc một mẫu quan sát cụ thể trong một tập hợp dữ liệu lớn phục vụ for việc huấn luyện hoặc phân tích.
+
+### **associate**
+- **Phiên âm**: /əˈsəʊ.si.eɪt/
+- **Nghĩa 1: Tính kết hợp** (Mathematics - *Associative property*)
+  - *Định nghĩa*: Một tính chất của phép toán nhị phân cho phép thay đổi thứ tự thực hiện phép tính mà không làm thay đổi kết quả (miễn là thứ tự của các phần tử không đổi). Ví dụ: $(a + b) + c = a + (b + c)$.
+- **Nghĩa 2: Mảng liên kết / Ánh xạ liên kết** (Computer Science - *Associative array / Map*)
+  - *Định nghĩa*: Một cấu trúc dữ liệu bao gồm các cặp (khóa, giá trị) - (key, value), trong đó mỗi khóa duy nhất được liên kết (associated) với một giá trị cụ thể.
+- **Nghĩa 3: Mối liên kết thực thể** (Data Modeling - *Association*)
+  - *Định nghĩa*: Một mối quan hệ giữa hai hoặc nhiều lớp/thực thể trong mô hình dữ liệu (như UML), mô tả cách các đối tượng tương tác hoặc kết nối với nhau (ví dụ: *One-to-One*, *One-to-Many* association).
+
