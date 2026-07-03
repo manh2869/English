@@ -75,3 +75,4 @@
 | manipulation | Biến đổi đại số (Toán); Thao tác dữ liệu (CS) |
 | trivial | Tầm thường, hiển nhiên (Toán); Cơ bản, đơn giản (CS) |
 | substitute | Thế, phép thế (Toán); Thay thế (CS) |
+| consists | Bao gồm, cấu thành bởi (Toán/CS) |
